@@ -1,0 +1,313 @@
+{
+  "projectFormatVersion": 1,
+  "savedWithRelease": 50600,
+  "name": "Toy Traffic Trio",
+  "runtime": "c3",
+  "useWorker": "auto",
+  "bundleAddons": false,
+  "usedAddons": [
+    {
+      "type": "plugin",
+      "id": "Sprite",
+      "name": "Sprite",
+      "author": "Scirra",
+      "bundled": false
+    },
+    {
+      "type": "plugin",
+      "id": "Text",
+      "name": "Text",
+      "author": "Scirra",
+      "bundled": false
+    },
+    {
+      "type": "plugin",
+      "id": "Touch",
+      "name": "Touch",
+      "author": "Scirra",
+      "bundled": false
+    },
+    {
+      "type": "plugin",
+      "id": "Audio",
+      "name": "Audio",
+      "author": "Scirra",
+      "bundled": false
+    },
+    {
+      "type": "plugin",
+      "id": "Arr",
+      "name": "Array",
+      "author": "Scirra",
+      "bundled": false
+    },
+    {
+      "type": "plugin",
+      "id": "Json",
+      "name": "JSON",
+      "author": "Scirra",
+      "bundled": false
+    }
+  ],
+  "uniqueId": "toytraffictrio250631",
+  "objectTypes": {
+    "items": [
+      "Backdrop",
+      "Vehicle",
+      "Hand",
+      "Modal",
+      "Undo",
+      "Hint",
+      "Restart",
+      "Pause",
+      "Sound",
+      "Previous",
+      "Forward",
+      "Next",
+      "Retry",
+      "Resume",
+      "LevelLabel",
+      "LevelName",
+      "Message",
+      "TrayLabel",
+      "ModalTitle",
+      "ModalCaption",
+      "FooterLabel",
+      "Campaign",
+      "Board",
+      "Touch",
+      "Audio"
+    ],
+    "subfolders": []
+  },
+  "functionsName": "Functions",
+  "autosaveData": null,
+  "containers": [],
+  "families": {
+    "items": [],
+    "subfolders": []
+  },
+  "layouts": {
+    "items": [
+      "Game"
+    ],
+    "subfolders": []
+  },
+  "eventSheets": {
+    "items": [
+      "Game"
+    ],
+    "subfolders": []
+  },
+  "rootFileFolders": {
+    "script": {
+      "items": [
+        {
+          "name": "main.js",
+          "type": "application/javascript",
+          "sid": 250000000409,
+          "script-info": {
+            "purpose": "main"
+          }
+        },
+        {
+          "name": "campaign.js",
+          "type": "application/javascript",
+          "sid": 250000000410,
+          "script-info": {
+            "purpose": "none"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    "sound": {
+      "items": [
+        {
+          "name": "release.webm",
+          "type": "audio/webm; codecs=opus",
+          "sid": 250000000412,
+          "file-info": {
+            "purpose": "none"
+          }
+        },
+        {
+          "name": "blocked.webm",
+          "type": "audio/webm; codecs=opus",
+          "sid": 250000000413,
+          "file-info": {
+            "purpose": "none"
+          }
+        },
+        {
+          "name": "match.webm",
+          "type": "audio/webm; codecs=opus",
+          "sid": 250000000414,
+          "file-info": {
+            "purpose": "none"
+          }
+        },
+        {
+          "name": "win.webm",
+          "type": "audio/webm; codecs=opus",
+          "sid": 250000000415,
+          "file-info": {
+            "purpose": "none"
+          }
+        },
+        {
+          "name": "tap.webm",
+          "type": "audio/webm; codecs=opus",
+          "sid": 250000000416,
+          "file-info": {
+            "purpose": "none"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    "music": {
+      "items": [],
+      "subfolders": []
+    },
+    "video": {
+      "items": [],
+      "subfolders": []
+    },
+    "font": {
+      "items": [],
+      "subfolders": []
+    },
+    "icon": {
+      "items": [
+        {
+          "name": "icon-16.png",
+          "type": "image/png",
+          "sid": 250000000417,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        },
+        {
+          "name": "icon-32.png",
+          "type": "image/png",
+          "sid": 250000000418,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        },
+        {
+          "name": "icon-64.png",
+          "type": "image/png",
+          "sid": 250000000419,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        },
+        {
+          "name": "icon-128.png",
+          "type": "image/png",
+          "sid": 250000000420,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        },
+        {
+          "name": "icon-256.png",
+          "type": "image/png",
+          "sid": 250000000421,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        },
+        {
+          "name": "icon-512.png",
+          "type": "image/png",
+          "sid": 250000000422,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        }
+      ],
+      "subfolders": []
+    },
+    "general": {
+      "items": [
+        {
+          "name": "levels.json",
+          "type": "application/json",
+          "sid": 250000000411,
+          "file-info": {
+            "purpose": "none"
+          }
+        }
+      ],
+      "subfolders": []
+    }
+  },
+  "timelines": {
+    "items": [],
+    "subfolders": []
+  },
+  "flowcharts": {
+    "items": [],
+    "subfolders": []
+  },
+  "properties": {
+    "description": "A forty-level traffic escape and triple-matching toy puzzle.",
+    "version": "1.0.0",
+    "autoIncrementVersion": false,
+    "author": "Toy Traffic Trio",
+    "authorEmail": "",
+    "authorWebsite": "",
+    "appId": "com.toytraffic.trio",
+    "pixelRounding": false,
+    "zAxisScale": "regular",
+    "fov": 0.7853981633974483,
+    "useLoaderLayout": false,
+    "fullscreenMode": "letterbox-scale",
+    "fullscreenQuality": "high",
+    "viewportFit": "auto",
+    "backgroundColor": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "splashColor": [
+      0.10196078431372549,
+      0.19607843137254902,
+      0.14901960784313725,
+      0
+    ],
+    "useThemeColor": false,
+    "themeColor": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "orientations": "portrait",
+    "webgpu": "auto",
+    "multitexturing": "auto",
+    "gpuPreference": "default",
+    "framerateMode": "vsync",
+    "sampling": "trilinear",
+    "downscaling": "medium",
+    "renderingMode": "auto",
+    "anisotropicFiltering": "auto",
+    "zNear": 1,
+    "zFar": 10000,
+    "maxSpriteSheetSize": 2048,
+    "loaderStyle": "progress",
+    "preloadSounds": true,
+    "uidAllocationMode": "increment",
+    "cordovaiOSScheme": "app",
+    "cordovaAndroidScheme": "https",
+    "exportFileStructure": "folders",
+    "scriptsType": "module"
+  },
+  "viewportWidth": 540,
+  "viewportHeight": 960,
+  "firstLayout": "Game"
+}

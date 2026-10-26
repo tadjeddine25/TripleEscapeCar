@@ -1,0 +1,12 @@
+{
+  "status": "structural checks passed",
+  "editorOpenTest": "NOT RUN: editor.construct.net returned HTTP 403",
+  "runtimePreview": "NOT RUN",
+  "officialHTML5Export": "NOT RUN",
+  "objectTypes": 25,
+  "functions": 10,
+  "imageReferences": 20,
+  "eventACEs": 197,
+  "parameterStringsChecked": 359,
+  "archiveCRC": "passed"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Message",
+  "plugin-id": "Text",
+  "sid": 250000000081,
+  "isGlobal": false,
+  "instanceVariables": [],
+  "behaviorTypes": [],
+  "effectTypes": []
+}

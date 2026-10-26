@@ -1,0 +1,9 @@
+{
+  "name": "TrayLabel",
+  "plugin-id": "Text",
+  "sid": 250000000083,
+  "isGlobal": false,
+  "instanceVariables": [],
+  "behaviorTypes": [],
+  "effectTypes": []
+}
