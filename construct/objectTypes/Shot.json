@@ -1,0 +1,88 @@
+{
+  "name": "Shot",
+  "plugin-id": "Sprite",
+  "sid": 250000000037,
+  "isGlobal": false,
+  "editorNewInstanceIsReplica": true,
+  "instanceVariables": [
+    {
+      "name": "age",
+      "type": "number",
+      "desc": "",
+      "show": true,
+      "sid": 250000000038
+    },
+    {
+      "name": "sx",
+      "type": "number",
+      "desc": "",
+      "show": true,
+      "sid": 250000000039
+    },
+    {
+      "name": "sy",
+      "type": "number",
+      "desc": "",
+      "show": true,
+      "sid": 250000000040
+    },
+    {
+      "name": "tx",
+      "type": "number",
+      "desc": "",
+      "show": true,
+      "sid": 250000000041
+    },
+    {
+      "name": "ty",
+      "type": "number",
+      "desc": "",
+      "show": true,
+      "sid": 250000000042
+    }
+  ],
+  "behaviorTypes": [],
+  "effectTypes": [],
+  "animations": {
+    "items": [
+      {
+        "frames": [
+          {
+            "width": 10,
+            "height": 10,
+            "originX": 0.5,
+            "originY": 0.5,
+            "originalSource": "",
+            "exportFormat": "lossless",
+            "exportQuality": 0.8,
+            "fileType": "image/png",
+            "imageSpriteId": 250000000036,
+            "useCollisionPoly": true,
+            "collisionPoly": {
+              "points": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1
+              ]
+            },
+            "duration": 1,
+            "tag": ""
+          }
+        ],
+        "sid": 250000000043,
+        "name": "Default",
+        "isLooping": false,
+        "isPingPong": false,
+        "repeatCount": 1,
+        "repeatTo": 0,
+        "speed": 0
+      }
+    ],
+    "subfolders": []
+  }
+}

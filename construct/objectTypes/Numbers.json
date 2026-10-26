@@ -1,0 +1,24 @@
+{
+  "name": "Numbers",
+  "plugin-id": "Text",
+  "sid": 250000000079,
+  "isGlobal": false,
+  "instanceVariables": [
+    {
+      "name": "owner",
+      "type": "number",
+      "desc": "",
+      "show": true,
+      "sid": 250000000080
+    },
+    {
+      "name": "role",
+      "type": "number",
+      "desc": "",
+      "show": true,
+      "sid": 250000000081
+    }
+  ],
+  "behaviorTypes": [],
+  "effectTypes": []
+}

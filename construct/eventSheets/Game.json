@@ -6,214 +6,140 @@
       "name": "CampaignJSON",
       "type": "string",
       "initialValue": "",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000099
-    },
-    {
-      "eventType": "variable",
-      "name": "Level",
-      "type": "number",
-      "initialValue": "0",
-      "comment": "",
-      "isStatic": false,
-      "isConstant": false,
-      "sid": 250000000100
-    },
-    {
-      "eventType": "variable",
-      "name": "Rows",
-      "type": "number",
-      "initialValue": "6",
-      "comment": "",
-      "isStatic": false,
-      "isConstant": false,
-      "sid": 250000000101
-    },
-    {
-      "eventType": "variable",
-      "name": "Total",
-      "type": "number",
-      "initialValue": "6",
-      "comment": "",
-      "isStatic": false,
-      "isConstant": false,
-      "sid": 250000000102
-    },
-    {
-      "eventType": "variable",
-      "name": "Top",
-      "type": "number",
-      "initialValue": "290",
-      "comment": "",
-      "isStatic": false,
-      "isConstant": false,
-      "sid": 250000000103
+      "sid": 250000000093,
+      "comment": ""
     },
     {
       "eventType": "variable",
       "name": "State",
       "type": "string",
       "initialValue": "Loading",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000104
+      "sid": 250000000094,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "Moves",
+      "name": "Level",
       "type": "number",
       "initialValue": "0",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000105
+      "sid": 250000000095,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "Matches",
+      "name": "Rows",
       "type": "number",
-      "initialValue": "0",
-      "comment": "",
+      "initialValue": "6",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000106
+      "sid": 250000000096,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "TrayCount",
+      "name": "Clock",
       "type": "number",
       "initialValue": "0",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000107
+      "sid": 250000000097,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "Selected",
+      "name": "UndoCount",
       "type": "number",
       "initialValue": "0",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000108
+      "sid": 250000000098,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "Blocker",
+      "name": "FrontRank",
       "type": "number",
       "initialValue": "0",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000109
+      "sid": 250000000099,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "RayX",
+      "name": "TargetID",
       "type": "number",
-      "initialValue": "0",
-      "comment": "",
+      "initialValue": "-1",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000110
+      "sid": 250000000100,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "RayY",
+      "name": "Obstructed",
       "type": "number",
       "initialValue": "0",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000111
+      "sid": 250000000101,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "DX",
+      "name": "Bay",
       "type": "number",
       "initialValue": "0",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000112
+      "sid": 250000000102,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "DY",
+      "name": "Occupied",
       "type": "number",
       "initialValue": "0",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000113
+      "sid": 250000000103,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "MoveAge",
+      "name": "ActiveCount",
       "type": "number",
       "initialValue": "0",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000114
+      "sid": 250000000104,
+      "comment": ""
     },
     {
       "eventType": "variable",
-      "name": "MatchCount",
+      "name": "Shootable",
       "type": "number",
       "initialValue": "0",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000115
+      "sid": 250000000105,
+      "comment": ""
     },
     {
       "eventType": "variable",
       "name": "Remaining",
       "type": "number",
       "initialValue": "0",
-      "comment": "",
       "isStatic": false,
       "isConstant": false,
-      "sid": 250000000116
-    },
-    {
-      "eventType": "variable",
-      "name": "Legal",
-      "type": "number",
-      "initialValue": "0",
-      "comment": "",
-      "isStatic": false,
-      "isConstant": false,
-      "sid": 250000000117
-    },
-    {
-      "eventType": "variable",
-      "name": "HintID",
-      "type": "number",
-      "initialValue": "-1",
-      "comment": "",
-      "isStatic": false,
-      "isConstant": false,
-      "sid": 250000000118
-    },
-    {
-      "eventType": "variable",
-      "name": "Muted",
-      "type": "number",
-      "initialValue": "0",
-      "comment": "",
-      "isStatic": false,
-      "isConstant": false,
-      "sid": 250000000119
-    },
-    {
-      "eventType": "comment",
-      "text": "NATIVE GAMEPLAY. Grid uses Board Array (0 empty; vehicle ID + 1 occupied). Sprite phase: 0 board, 1 transit, 2 tray, 3 matched. Grid anchors never follow animation positions."
+      "sid": 250000000106,
+      "comment": ""
     },
     {
       "eventType": "block",
@@ -221,29 +147,29 @@
         {
           "id": "on-start-of-layout",
           "objectClass": "System",
-          "sid": 250000000120
+          "sid": 250000000107
         }
       ],
       "actions": [
         {
           "id": "parse",
           "objectClass": "Campaign",
-          "sid": 250000000121,
+          "sid": 250000000108,
           "parameters": {
             "data": "CampaignJSON"
           }
         },
         {
           "callFunction": "LoadLevel",
-          "sid": 250000000122
+          "sid": 250000000109
         }
       ],
-      "sid": 250000000123
+      "sid": 250000000110
     },
     {
       "functionName": "LoadLevel",
       "functionDescription": "",
-      "functionCategory": "Toy Traffic Trio",
+      "functionCategory": "Buster Block Shooter",
       "functionReturnType": "none",
       "functionCopyPicked": false,
       "functionIsAsync": false,
@@ -254,7 +180,7 @@
         {
           "id": "set-eventvar-value",
           "objectClass": "System",
-          "sid": 250000000124,
+          "sid": 250000000111,
           "parameters": {
             "variable": "State",
             "value": "\"Loading\""
@@ -262,13 +188,43 @@
         },
         {
           "id": "destroy",
-          "objectClass": "Vehicle",
-          "sid": 250000000125
+          "objectClass": "Block",
+          "sid": 250000000112
+        },
+        {
+          "id": "destroy",
+          "objectClass": "Tank",
+          "sid": 250000000113
+        },
+        {
+          "id": "destroy",
+          "objectClass": "Shot",
+          "sid": 250000000114
+        },
+        {
+          "id": "destroy",
+          "objectClass": "Numbers",
+          "sid": 250000000115
+        },
+        {
+          "id": "set-size",
+          "objectClass": "Board",
+          "sid": 250000000116,
+          "parameters": {
+            "width": "6",
+            "height": "6",
+            "depth": "1"
+          }
+        },
+        {
+          "id": "clear",
+          "objectClass": "Board",
+          "sid": 250000000117
         },
         {
           "id": "set-eventvar-value",
           "objectClass": "System",
-          "sid": 250000000126,
+          "sid": 250000000118,
           "parameters": {
             "variable": "Rows",
             "value": "Campaign.Get(str(Level) & \".rows\")"
@@ -277,81 +233,31 @@
         {
           "id": "set-eventvar-value",
           "objectClass": "System",
-          "sid": 250000000127,
+          "sid": 250000000119,
           "parameters": {
-            "variable": "Total",
-            "value": "Campaign.Get(str(Level) & \".count\")"
-          }
-        },
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000128,
-          "parameters": {
-            "variable": "Top",
-            "value": "262 + (7-Rows)*28"
-          }
-        },
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000129,
-          "parameters": {
-            "variable": "Moves",
+            "variable": "Clock",
             "value": "0"
           }
         },
         {
           "id": "set-eventvar-value",
           "objectClass": "System",
-          "sid": 250000000130,
+          "sid": 250000000120,
           "parameters": {
-            "variable": "Matches",
+            "variable": "UndoCount",
             "value": "0"
-          }
-        },
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000131,
-          "parameters": {
-            "variable": "TrayCount",
-            "value": "0"
-          }
-        },
-        {
-          "id": "set-size",
-          "objectClass": "Board",
-          "sid": 250000000132,
-          "parameters": {
-            "width": "6",
-            "height": "7",
-            "depth": "1"
-          }
-        },
-        {
-          "id": "clear",
-          "objectClass": "Board",
-          "sid": 250000000133
-        },
-        {
-          "id": "set-animation-frame",
-          "objectClass": "Backdrop",
-          "sid": 250000000134,
-          "parameters": {
-            "frame-number": "Rows-6"
           }
         },
         {
           "id": "set-text",
           "objectClass": "Message",
-          "sid": 250000000135,
+          "sid": 250000000121,
           "parameters": {
-            "text": "Level=0 ? \"Tap a car.\" : Level=1 ? \"Clear the way for a neighbour.\" : \"Follow the arrows. Make a trio.\""
+            "text": "\"Tap a front tank. Match its colour.\""
           }
         }
       ],
-      "sid": 250000000153,
+      "sid": 250000000156,
       "children": [
         {
           "eventType": "block",
@@ -359,11 +265,11 @@
             {
               "id": "for",
               "objectClass": "System",
-              "sid": 250000000136,
+              "sid": 250000000122,
               "parameters": {
                 "name": "\"spawn\"",
                 "start-index": "0",
-                "end-index": "Total-1"
+                "end-index": "Campaign.Get(str(Level) & \".blockCount\")-1"
               }
             }
           ],
@@ -371,236 +277,159 @@
             {
               "id": "create-object",
               "objectClass": "System",
-              "sid": 250000000137,
+              "sid": 250000000123,
               "parameters": {
-                "object-to-create": "Vehicle",
+                "object-to-create": "Block",
                 "layer": "\"Game\"",
-                "x": "-100",
-                "y": "-100",
+                "x": "-200",
+                "y": "-200",
                 "create-hierarchy": false,
                 "template-name": "\"\""
               }
             },
             {
               "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000138,
+              "objectClass": "Block",
+              "sid": 250000000124,
               "parameters": {
-                "instance-variable": "vid",
-                "value": "Campaign.Get(str(Level) & \".vehicles.\" & loopindex(\"spawn\") & \".id\")"
+                "instance-variable": "bid",
+                "value": "Campaign.Get(str(Level) & \".blocks.\" & loopindex(\"spawn\") & \".id\")"
               }
             },
             {
               "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000139,
-              "parameters": {
-                "instance-variable": "kind",
-                "value": "Campaign.Get(str(Level) & \".vehicles.\" & loopindex(\"spawn\") & \".type\")"
-              }
-            },
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000140,
+              "objectClass": "Block",
+              "sid": 250000000125,
               "parameters": {
                 "instance-variable": "gx",
-                "value": "Campaign.Get(str(Level) & \".vehicles.\" & loopindex(\"spawn\") & \".x\")"
+                "value": "Campaign.Get(str(Level) & \".blocks.\" & loopindex(\"spawn\") & \".x\")"
               }
             },
             {
               "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000141,
+              "objectClass": "Block",
+              "sid": 250000000126,
               "parameters": {
                 "instance-variable": "gy",
-                "value": "Campaign.Get(str(Level) & \".vehicles.\" & loopindex(\"spawn\") & \".y\")"
+                "value": "Campaign.Get(str(Level) & \".blocks.\" & loopindex(\"spawn\") & \".y\")"
               }
             },
             {
               "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000142,
+              "objectClass": "Block",
+              "sid": 250000000127,
               "parameters": {
-                "instance-variable": "dir",
-                "value": "Campaign.Get(str(Level) & \".vehicles.\" & loopindex(\"spawn\") & \".d\")"
+                "instance-variable": "span",
+                "value": "Campaign.Get(str(Level) & \".blocks.\" & loopindex(\"spawn\") & \".w\")"
               }
             },
             {
               "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000143,
+              "objectClass": "Block",
+              "sid": 250000000128,
               "parameters": {
-                "instance-variable": "phase",
-                "value": "0"
+                "instance-variable": "hp",
+                "value": "Campaign.Get(str(Level) & \".blocks.\" & loopindex(\"spawn\") & \".hp\")"
               }
             },
             {
               "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000144,
+              "objectClass": "Block",
+              "sid": 250000000129,
               "parameters": {
-                "instance-variable": "arrival",
-                "value": "0"
-              }
-            },
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000145,
-              "parameters": {
-                "instance-variable": "flash",
-                "value": "0"
-              }
-            },
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000146,
-              "parameters": {
-                "instance-variable": "bump",
-                "value": "0"
+                "instance-variable": "kind",
+                "value": "Campaign.Get(str(Level) & \".blocks.\" & loopindex(\"spawn\") & \".color\")"
               }
             },
             {
               "id": "set-animation-frame",
-              "objectClass": "Vehicle",
-              "sid": 250000000147,
+              "objectClass": "Block",
+              "sid": 250000000130,
               "parameters": {
-                "frame-number": "Vehicle.kind"
+                "frame-number": "Block.kind"
               }
             },
             {
-              "id": "set-angle",
-              "objectClass": "Vehicle",
-              "sid": 250000000148,
+              "id": "set-size",
+              "objectClass": "Block",
+              "sid": 250000000131,
               "parameters": {
-                "angle": "Vehicle.dir*90"
+                "width": "Block.span*72",
+                "height": "64"
               }
-            }
-          ],
-          "sid": 250000000149
-        },
-        {
-          "eventType": "block",
-          "conditions": [],
-          "actions": [
-            {
-              "callFunction": "Rebuild",
-              "sid": 250000000150
             },
             {
-              "id": "set-eventvar-value",
-              "objectClass": "System",
-              "sid": 250000000151,
+              "id": "set-position",
+              "objectClass": "Block",
+              "sid": 250000000132,
               "parameters": {
-                "variable": "State",
-                "value": "\"Playing\""
+                "x": "54+(Block.gx+Block.span/2)*72",
+                "y": "600-(Rows-Block.gy-.5)*64"
               }
-            }
-          ],
-          "sid": 250000000152
-        }
-      ]
-    },
-    {
-      "functionName": "Rebuild",
-      "functionDescription": "",
-      "functionCategory": "Toy Traffic Trio",
-      "functionReturnType": "none",
-      "functionCopyPicked": false,
-      "functionIsAsync": false,
-      "functionParameters": [],
-      "eventType": "function-block",
-      "conditions": [],
-      "actions": [
-        {
-          "id": "clear",
-          "objectClass": "Board",
-          "sid": 250000000154
-        },
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000155,
-          "parameters": {
-            "variable": "Matches",
-            "value": "0"
-          }
-        }
-      ],
-      "sid": 250000000172,
-      "children": [
-        {
-          "eventType": "block",
-          "conditions": [
+            },
             {
-              "id": "for-each",
+              "id": "create-object",
               "objectClass": "System",
-              "sid": 250000000156,
+              "sid": 250000000133,
               "parameters": {
-                "object": "Vehicle"
+                "object-to-create": "Numbers",
+                "layer": "\"UI\"",
+                "x": "-200",
+                "y": "-200",
+                "create-hierarchy": false,
+                "template-name": "\"\""
               }
-            }
-          ],
-          "actions": [
+            },
             {
               "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000157,
+              "objectClass": "Numbers",
+              "sid": 250000000134,
               "parameters": {
-                "instance-variable": "phase",
-                "value": "Vehicle.arrival=0 ? 0 : 3"
+                "instance-variable": "owner",
+                "value": "Block.bid"
               }
-            }
-          ],
-          "sid": 250000000158
-        },
-        {
-          "eventType": "block",
-          "conditions": [
+            },
             {
-              "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000159,
+              "id": "set-instvar-value",
+              "objectClass": "Numbers",
+              "sid": 250000000135,
               "parameters": {
-                "instance-variable": "phase",
-                "comparison": 0,
+                "instance-variable": "role",
                 "value": "0"
               }
-            },
-            {
-              "id": "for-each",
-              "objectClass": "System",
-              "sid": 250000000160,
-              "parameters": {
-                "object": "Vehicle"
-              }
             }
           ],
-          "actions": [
+          "sid": 250000000139,
+          "children": [
             {
-              "id": "set-at-xy",
-              "objectClass": "Board",
-              "sid": 250000000161,
-              "parameters": {
-                "x": "Vehicle.gx",
-                "y": "Vehicle.gy",
-                "value": "Vehicle.vid+1"
-              }
-            },
-            {
-              "id": "set-at-xy",
-              "objectClass": "Board",
-              "sid": 250000000162,
-              "parameters": {
-                "x": "Vehicle.gx+(Vehicle.dir%2)",
-                "y": "Vehicle.gy+(1-Vehicle.dir%2)",
-                "value": "Vehicle.vid+1"
-              }
+              "eventType": "block",
+              "conditions": [
+                {
+                  "id": "for",
+                  "objectClass": "System",
+                  "sid": 250000000136,
+                  "parameters": {
+                    "name": "\"occupy\"",
+                    "start-index": "0",
+                    "end-index": "Block.span-1"
+                  }
+                }
+              ],
+              "actions": [
+                {
+                  "id": "set-at-xy",
+                  "objectClass": "Board",
+                  "sid": 250000000137,
+                  "parameters": {
+                    "x": "Block.gx+loopindex(\"occupy\")",
+                    "y": "Block.gy",
+                    "value": "Block.bid+1"
+                  }
+                }
+              ],
+              "sid": 250000000138
             }
-          ],
-          "sid": 250000000163
+          ]
         },
         {
           "eventType": "block",
@@ -608,70 +437,155 @@
             {
               "id": "for",
               "objectClass": "System",
-              "sid": 250000000164,
+              "sid": 250000000140,
               "parameters": {
-                "name": "\"history\"",
-                "start-index": "1",
-                "end-index": "Moves"
+                "name": "\"spawn\"",
+                "start-index": "0",
+                "end-index": "Campaign.Get(str(Level) & \".tankCount\")-1"
               }
             }
           ],
-          "actions": [],
-          "sid": 250000000169,
-          "children": [
+          "actions": [
             {
-              "eventType": "block",
-              "conditions": [
-                {
-                  "id": "compare-instance-variable",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000165,
-                  "parameters": {
-                    "instance-variable": "arrival",
-                    "comparison": 0,
-                    "value": "loopindex(\"history\")"
-                  }
-                }
-              ],
-              "actions": [
-                {
-                  "id": "set-instvar-value",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000166,
-                  "parameters": {
-                    "instance-variable": "phase",
-                    "value": "2"
-                  }
-                },
-                {
-                  "callFunction": "MatchKind",
-                  "sid": 250000000167,
-                  "parameters": [
-                    "Vehicle.kind"
-                  ]
-                }
-              ],
-              "sid": 250000000168
+              "id": "create-object",
+              "objectClass": "System",
+              "sid": 250000000141,
+              "parameters": {
+                "object-to-create": "Tank",
+                "layer": "\"Game\"",
+                "x": "-200",
+                "y": "-200",
+                "create-hierarchy": false,
+                "template-name": "\"\""
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Tank",
+              "sid": 250000000142,
+              "parameters": {
+                "instance-variable": "tid",
+                "value": "Campaign.Get(str(Level) & \".tanks.\" & loopindex(\"spawn\") & \".id\")"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Tank",
+              "sid": 250000000143,
+              "parameters": {
+                "instance-variable": "col",
+                "value": "Campaign.Get(str(Level) & \".tanks.\" & loopindex(\"spawn\") & \".col\")"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Tank",
+              "sid": 250000000144,
+              "parameters": {
+                "instance-variable": "order",
+                "value": "Campaign.Get(str(Level) & \".tanks.\" & loopindex(\"spawn\") & \".order\")"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Tank",
+              "sid": 250000000145,
+              "parameters": {
+                "instance-variable": "kind",
+                "value": "Campaign.Get(str(Level) & \".tanks.\" & loopindex(\"spawn\") & \".color\")"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Tank",
+              "sid": 250000000146,
+              "parameters": {
+                "instance-variable": "ammo",
+                "value": "Campaign.Get(str(Level) & \".tanks.\" & loopindex(\"spawn\") & \".ammo\")"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Tank",
+              "sid": 250000000147,
+              "parameters": {
+                "instance-variable": "phase",
+                "value": "0"
+              }
+            },
+            {
+              "id": "set-animation-frame",
+              "objectClass": "Tank",
+              "sid": 250000000148,
+              "parameters": {
+                "frame-number": "Tank.kind"
+              }
+            },
+            {
+              "id": "set-size",
+              "objectClass": "Tank",
+              "sid": 250000000149,
+              "parameters": {
+                "width": "63",
+                "height": "74"
+              }
+            },
+            {
+              "id": "create-object",
+              "objectClass": "System",
+              "sid": 250000000150,
+              "parameters": {
+                "object-to-create": "Numbers",
+                "layer": "\"UI\"",
+                "x": "-200",
+                "y": "-200",
+                "create-hierarchy": false,
+                "template-name": "\"\""
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Numbers",
+              "sid": 250000000151,
+              "parameters": {
+                "instance-variable": "owner",
+                "value": "Tank.tid"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Numbers",
+              "sid": 250000000152,
+              "parameters": {
+                "instance-variable": "role",
+                "value": "1"
+              }
             }
-          ]
+          ],
+          "sid": 250000000153
         },
         {
           "eventType": "block",
           "conditions": [],
           "actions": [
             {
-              "callFunction": "SortTray",
-              "sid": 250000000170
+              "id": "set-eventvar-value",
+              "objectClass": "System",
+              "sid": 250000000154,
+              "parameters": {
+                "variable": "State",
+                "value": "\"Playing\""
+              }
             }
           ],
-          "sid": 250000000171
+          "sid": 250000000155
         }
       ]
     },
     {
-      "functionName": "CanExit",
+      "functionName": "QueueRank",
       "functionDescription": "",
-      "functionCategory": "Toy Traffic Trio",
+      "functionCategory": "Buster Block Shooter",
       "functionReturnType": "none",
       "functionCopyPicked": false,
       "functionIsAsync": false,
@@ -681,7 +595,7 @@
           "type": "number",
           "initialValue": "0",
           "comment": "",
-          "sid": 250000000189
+          "sid": 250000000168
         }
       ],
       "eventType": "function-block",
@@ -690,24 +604,24 @@
         {
           "id": "set-eventvar-value",
           "objectClass": "System",
-          "sid": 250000000173,
+          "sid": 250000000157,
           "parameters": {
-            "variable": "Blocker",
+            "variable": "FrontRank",
             "value": "0"
           }
         }
       ],
-      "sid": 250000000190,
+      "sid": 250000000169,
       "children": [
         {
           "eventType": "block",
           "conditions": [
             {
               "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000174,
+              "objectClass": "Tank",
+              "sid": 250000000158,
               "parameters": {
-                "instance-variable": "vid",
+                "instance-variable": "tid",
                 "comparison": 0,
                 "value": "candidate"
               }
@@ -717,113 +631,63 @@
             {
               "id": "set-eventvar-value",
               "objectClass": "System",
-              "sid": 250000000175,
+              "sid": 250000000159,
               "parameters": {
-                "variable": "RayX",
-                "value": "Vehicle.gx+(Vehicle.dir=1 ? 1 : 0)"
+                "variable": "Bay",
+                "value": "Tank.col"
               }
             },
             {
               "id": "set-eventvar-value",
               "objectClass": "System",
-              "sid": 250000000176,
+              "sid": 250000000160,
               "parameters": {
-                "variable": "RayY",
-                "value": "Vehicle.gy+(Vehicle.dir=2 ? 1 : 0)"
-              }
-            },
-            {
-              "id": "set-eventvar-value",
-              "objectClass": "System",
-              "sid": 250000000177,
-              "parameters": {
-                "variable": "DX",
-                "value": "Vehicle.dir=1 ? 1 : Vehicle.dir=3 ? -1 : 0"
-              }
-            },
-            {
-              "id": "set-eventvar-value",
-              "objectClass": "System",
-              "sid": 250000000178,
-              "parameters": {
-                "variable": "DY",
-                "value": "Vehicle.dir=2 ? 1 : Vehicle.dir=0 ? -1 : 0"
+                "variable": "TargetID",
+                "value": "Tank.order"
               }
             }
           ],
-          "sid": 250000000179
+          "sid": 250000000161
         },
         {
           "eventType": "block",
           "conditions": [
             {
-              "id": "for",
-              "objectClass": "System",
-              "sid": 250000000180,
+              "id": "compare-instance-variable",
+              "objectClass": "Tank",
+              "sid": 250000000162,
               "parameters": {
-                "name": "\"ray\"",
-                "start-index": "1",
-                "end-index": "7"
-              }
-            },
-            {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000181,
-              "parameters": {
-                "first-value": "Blocker",
+                "instance-variable": "phase",
                 "comparison": 0,
-                "second-value": "0"
+                "value": "0"
               }
             },
             {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000182,
+              "id": "compare-instance-variable",
+              "objectClass": "Tank",
+              "sid": 250000000163,
               "parameters": {
-                "first-value": "RayX+DX*loopindex(\"ray\")",
-                "comparison": 5,
-                "second-value": "0"
+                "instance-variable": "col",
+                "comparison": 0,
+                "value": "Bay"
               }
             },
             {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000183,
+              "id": "compare-instance-variable",
+              "objectClass": "Tank",
+              "sid": 250000000164,
               "parameters": {
-                "first-value": "RayX+DX*loopindex(\"ray\")",
+                "instance-variable": "order",
                 "comparison": 2,
-                "second-value": "6"
+                "value": "TargetID"
               }
             },
             {
-              "id": "compare-two-values",
+              "id": "for-each",
               "objectClass": "System",
-              "sid": 250000000184,
+              "sid": 250000000165,
               "parameters": {
-                "first-value": "RayY+DY*loopindex(\"ray\")",
-                "comparison": 5,
-                "second-value": "0"
-              }
-            },
-            {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000185,
-              "parameters": {
-                "first-value": "RayY+DY*loopindex(\"ray\")",
-                "comparison": 2,
-                "second-value": "Rows"
-              }
-            },
-            {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000186,
-              "parameters": {
-                "first-value": "Board.At(RayX+DX*loopindex(\"ray\"),RayY+DY*loopindex(\"ray\"))",
-                "comparison": 4,
-                "second-value": "0"
+                "object": "Tank"
               }
             }
           ],
@@ -831,20 +695,152 @@
             {
               "id": "set-eventvar-value",
               "objectClass": "System",
-              "sid": 250000000187,
+              "sid": 250000000166,
               "parameters": {
-                "variable": "Blocker",
-                "value": "Board.At(RayX+DX*loopindex(\"ray\"),RayY+DY*loopindex(\"ray\"))"
+                "variable": "FrontRank",
+                "value": "FrontRank+1"
               }
             }
           ],
-          "sid": 250000000188
+          "sid": 250000000167
         }
       ]
     },
     {
-      "eventType": "comment",
-      "text": "Input is accepted only while Playing. The entire move reserves one slot and resolves before input resumes."
+      "functionName": "FreeBay",
+      "functionDescription": "",
+      "functionCategory": "Buster Block Shooter",
+      "functionReturnType": "none",
+      "functionCopyPicked": false,
+      "functionIsAsync": false,
+      "functionParameters": [],
+      "eventType": "function-block",
+      "conditions": [],
+      "actions": [
+        {
+          "id": "set-eventvar-value",
+          "objectClass": "System",
+          "sid": 250000000170,
+          "parameters": {
+            "variable": "Bay",
+            "value": "-1"
+          }
+        }
+      ],
+      "sid": 250000000183,
+      "children": [
+        {
+          "eventType": "block",
+          "conditions": [
+            {
+              "id": "for",
+              "objectClass": "System",
+              "sid": 250000000171,
+              "parameters": {
+                "name": "\"bay\"",
+                "start-index": "0",
+                "end-index": "4"
+              }
+            },
+            {
+              "id": "compare-two-values",
+              "objectClass": "System",
+              "sid": 250000000172,
+              "parameters": {
+                "first-value": "Bay",
+                "comparison": 0,
+                "second-value": "-1"
+              }
+            }
+          ],
+          "actions": [
+            {
+              "id": "set-eventvar-value",
+              "objectClass": "System",
+              "sid": 250000000173,
+              "parameters": {
+                "variable": "Occupied",
+                "value": "0"
+              }
+            }
+          ],
+          "sid": 250000000182,
+          "children": [
+            {
+              "eventType": "block",
+              "conditions": [
+                {
+                  "id": "compare-instance-variable",
+                  "objectClass": "Tank",
+                  "sid": 250000000174,
+                  "parameters": {
+                    "instance-variable": "phase",
+                    "comparison": 0,
+                    "value": "1"
+                  }
+                },
+                {
+                  "id": "compare-instance-variable",
+                  "objectClass": "Tank",
+                  "sid": 250000000175,
+                  "parameters": {
+                    "instance-variable": "bay",
+                    "comparison": 0,
+                    "value": "loopindex(\"bay\")"
+                  }
+                },
+                {
+                  "id": "for-each",
+                  "objectClass": "System",
+                  "sid": 250000000176,
+                  "parameters": {
+                    "object": "Tank"
+                  }
+                }
+              ],
+              "actions": [
+                {
+                  "id": "set-eventvar-value",
+                  "objectClass": "System",
+                  "sid": 250000000177,
+                  "parameters": {
+                    "variable": "Occupied",
+                    "value": "1"
+                  }
+                }
+              ],
+              "sid": 250000000178
+            },
+            {
+              "eventType": "block",
+              "conditions": [
+                {
+                  "id": "compare-two-values",
+                  "objectClass": "System",
+                  "sid": 250000000179,
+                  "parameters": {
+                    "first-value": "Occupied",
+                    "comparison": 0,
+                    "second-value": "0"
+                  }
+                }
+              ],
+              "actions": [
+                {
+                  "id": "set-eventvar-value",
+                  "objectClass": "System",
+                  "sid": 250000000180,
+                  "parameters": {
+                    "variable": "Bay",
+                    "value": "loopindex(\"bay\")"
+                  }
+                }
+              ],
+              "sid": 250000000181
+            }
+          ]
+        }
+      ]
     },
     {
       "eventType": "block",
@@ -852,15 +848,15 @@
         {
           "id": "on-tap-object",
           "objectClass": "Touch",
-          "sid": 250000000191,
+          "sid": 250000000184,
           "parameters": {
-            "object": "Vehicle"
+            "object": "Tank"
           }
         },
         {
           "id": "compare-two-values",
           "objectClass": "System",
-          "sid": 250000000192,
+          "sid": 250000000185,
           "parameters": {
             "first-value": "State",
             "comparison": 0,
@@ -869,8 +865,8 @@
         },
         {
           "id": "compare-instance-variable",
-          "objectClass": "Vehicle",
-          "sid": 250000000193,
+          "objectClass": "Tank",
+          "sid": 250000000186,
           "parameters": {
             "instance-variable": "phase",
             "comparison": 0,
@@ -880,23 +876,14 @@
       ],
       "actions": [
         {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000194,
-          "parameters": {
-            "variable": "Selected",
-            "value": "Vehicle.vid"
-          }
-        },
-        {
-          "callFunction": "CanExit",
-          "sid": 250000000195,
+          "callFunction": "QueueRank",
+          "sid": 250000000187,
           "parameters": [
-            "Selected"
+            "Tank.tid"
           ]
         }
       ],
-      "sid": 250000000218,
+      "sid": 250000000197,
       "children": [
         {
           "eventType": "block",
@@ -904,21 +891,145 @@
             {
               "id": "compare-two-values",
               "objectClass": "System",
-              "sid": 250000000196,
+              "sid": 250000000188,
               "parameters": {
-                "first-value": "Blocker",
+                "first-value": "FrontRank",
                 "comparison": 0,
                 "second-value": "0"
               }
+            }
+          ],
+          "actions": [
+            {
+              "callFunction": "FreeBay",
+              "sid": 250000000189
+            }
+          ],
+          "sid": 250000000196,
+          "children": [
+            {
+              "eventType": "block",
+              "conditions": [
+                {
+                  "id": "compare-two-values",
+                  "objectClass": "System",
+                  "sid": 250000000190,
+                  "parameters": {
+                    "first-value": "Bay",
+                    "comparison": 5,
+                    "second-value": "0"
+                  }
+                }
+              ],
+              "actions": [
+                {
+                  "callFunction": "Snapshot",
+                  "sid": 250000000191
+                },
+                {
+                  "id": "set-eventvar-value",
+                  "objectClass": "System",
+                  "sid": 250000000192,
+                  "parameters": {
+                    "variable": "UndoCount",
+                    "value": "UndoCount+1"
+                  }
+                },
+                {
+                  "id": "set-instvar-value",
+                  "objectClass": "Tank",
+                  "sid": 250000000193,
+                  "parameters": {
+                    "instance-variable": "phase",
+                    "value": "1"
+                  }
+                },
+                {
+                  "id": "set-instvar-value",
+                  "objectClass": "Tank",
+                  "sid": 250000000194,
+                  "parameters": {
+                    "instance-variable": "bay",
+                    "value": "Bay"
+                  }
+                }
+              ],
+              "sid": 250000000195
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "functionName": "FindTarget",
+      "functionDescription": "",
+      "functionCategory": "Buster Block Shooter",
+      "functionReturnType": "none",
+      "functionCopyPicked": false,
+      "functionIsAsync": false,
+      "functionParameters": [
+        {
+          "name": "colour",
+          "type": "number",
+          "initialValue": "0",
+          "comment": "",
+          "sid": 250000000213
+        }
+      ],
+      "eventType": "function-block",
+      "conditions": [],
+      "actions": [
+        {
+          "id": "set-eventvar-value",
+          "objectClass": "System",
+          "sid": 250000000198,
+          "parameters": {
+            "variable": "TargetID",
+            "value": "-1"
+          }
+        }
+      ],
+      "sid": 250000000214,
+      "children": [
+        {
+          "eventType": "block",
+          "conditions": [
+            {
+              "id": "compare-instance-variable",
+              "objectClass": "Block",
+              "sid": 250000000199,
+              "parameters": {
+                "instance-variable": "hp",
+                "comparison": 4,
+                "value": "0"
+              }
             },
             {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000197,
+              "id": "compare-instance-variable",
+              "objectClass": "Block",
+              "sid": 250000000200,
               "parameters": {
-                "first-value": "TrayCount",
-                "comparison": 2,
-                "second-value": "7"
+                "instance-variable": "kind",
+                "comparison": 0,
+                "value": "colour"
+              }
+            },
+            {
+              "id": "for-each",
+              "objectClass": "System",
+              "sid": 250000000201,
+              "parameters": {
+                "object": "Block"
+              }
+            },
+            {
+              "id": "for",
+              "objectClass": "System",
+              "sid": 250000000202,
+              "parameters": {
+                "name": "\"column\"",
+                "start-index": "0",
+                "end-index": "Block.span-1"
               }
             }
           ],
@@ -926,166 +1037,281 @@
             {
               "id": "set-eventvar-value",
               "objectClass": "System",
-              "sid": 250000000198,
-              "parameters": {
-                "variable": "State",
-                "value": "\"ResolvingMove\""
-              }
-            },
-            {
-              "id": "set-eventvar-value",
-              "objectClass": "System",
-              "sid": 250000000199,
-              "parameters": {
-                "variable": "Moves",
-                "value": "Moves+1"
-              }
-            },
-            {
-              "id": "set-eventvar-value",
-              "objectClass": "System",
-              "sid": 250000000200,
-              "parameters": {
-                "variable": "MoveAge",
-                "value": "0"
-              }
-            },
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000201,
-              "parameters": {
-                "instance-variable": "arrival",
-                "value": "Moves"
-              }
-            },
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000202,
-              "parameters": {
-                "instance-variable": "phase",
-                "value": "1"
-              }
-            },
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
               "sid": 250000000203,
               "parameters": {
-                "instance-variable": "sx",
-                "value": "Vehicle.X"
-              }
-            },
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000204,
-              "parameters": {
-                "instance-variable": "sy",
-                "value": "Vehicle.Y"
-              }
-            },
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000205,
-              "parameters": {
-                "instance-variable": "ex",
-                "value": "Vehicle.dir=1 ? 500 : Vehicle.dir=3 ? 40 : Vehicle.X"
-              }
-            },
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000206,
-              "parameters": {
-                "instance-variable": "ey",
-                "value": "Vehicle.dir=0 ? Top-65 : Vehicle.dir=2 ? Top+Rows*56+65 : Vehicle.Y"
-              }
-            },
-            {
-              "id": "set-at-xy",
-              "objectClass": "Board",
-              "sid": 250000000207,
-              "parameters": {
-                "x": "Vehicle.gx",
-                "y": "Vehicle.gy",
+                "variable": "Obstructed",
                 "value": "0"
               }
-            },
-            {
-              "id": "set-at-xy",
-              "objectClass": "Board",
-              "sid": 250000000208,
-              "parameters": {
-                "x": "Vehicle.gx+(Vehicle.dir%2)",
-                "y": "Vehicle.gy+(1-Vehicle.dir%2)",
-                "value": "0"
-              }
-            },
-            {
-              "callFunction": "PlaySound",
-              "sid": 250000000209,
-              "parameters": [
-                "0"
-              ]
             }
           ],
-          "sid": 250000000210
-        },
+          "sid": 250000000212,
+          "children": [
+            {
+              "eventType": "block",
+              "conditions": [
+                {
+                  "id": "compare-two-values",
+                  "objectClass": "System",
+                  "sid": 250000000204,
+                  "parameters": {
+                    "first-value": "Block.gy",
+                    "comparison": 2,
+                    "second-value": "Rows-1"
+                  }
+                },
+                {
+                  "id": "for",
+                  "objectClass": "System",
+                  "sid": 250000000205,
+                  "parameters": {
+                    "name": "\"ray\"",
+                    "start-index": "Block.gy+1",
+                    "end-index": "Rows-1"
+                  }
+                },
+                {
+                  "id": "compare-two-values",
+                  "objectClass": "System",
+                  "sid": 250000000206,
+                  "parameters": {
+                    "first-value": "Board.At(Block.gx+loopindex(\"column\"),loopindex(\"ray\"))",
+                    "comparison": 4,
+                    "second-value": "0"
+                  }
+                }
+              ],
+              "actions": [
+                {
+                  "id": "set-eventvar-value",
+                  "objectClass": "System",
+                  "sid": 250000000207,
+                  "parameters": {
+                    "variable": "Obstructed",
+                    "value": "1"
+                  }
+                }
+              ],
+              "sid": 250000000208
+            },
+            {
+              "eventType": "block",
+              "conditions": [
+                {
+                  "id": "compare-two-values",
+                  "objectClass": "System",
+                  "sid": 250000000209,
+                  "parameters": {
+                    "first-value": "Obstructed",
+                    "comparison": 0,
+                    "second-value": "0"
+                  }
+                }
+              ],
+              "actions": [
+                {
+                  "id": "set-eventvar-value",
+                  "objectClass": "System",
+                  "sid": 250000000210,
+                  "parameters": {
+                    "variable": "TargetID",
+                    "value": "Block.bid"
+                  }
+                }
+              ],
+              "sid": 250000000211
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "functionName": "Shoot",
+      "functionDescription": "",
+      "functionCategory": "Buster Block Shooter",
+      "functionReturnType": "none",
+      "functionCopyPicked": true,
+      "functionIsAsync": false,
+      "functionParameters": [
+        {
+          "name": "colour",
+          "type": "number",
+          "initialValue": "0",
+          "comment": "",
+          "sid": 250000000233
+        }
+      ],
+      "eventType": "function-block",
+      "conditions": [],
+      "actions": [
+        {
+          "callFunction": "FindTarget",
+          "sid": 250000000215,
+          "parameters": [
+            "colour"
+          ]
+        }
+      ],
+      "sid": 250000000234,
+      "children": [
         {
           "eventType": "block",
           "conditions": [
             {
               "id": "compare-two-values",
               "objectClass": "System",
-              "sid": 250000000211,
+              "sid": 250000000216,
               "parameters": {
-                "first-value": "Blocker",
-                "comparison": 4,
+                "first-value": "TargetID",
+                "comparison": 5,
                 "second-value": "0"
+              }
+            },
+            {
+              "id": "compare-instance-variable",
+              "objectClass": "Block",
+              "sid": 250000000217,
+              "parameters": {
+                "instance-variable": "bid",
+                "comparison": 0,
+                "value": "TargetID"
               }
             }
           ],
           "actions": [
             {
               "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000212,
+              "objectClass": "Block",
+              "sid": 250000000218,
               "parameters": {
-                "instance-variable": "bump",
-                "value": "time+.28"
+                "instance-variable": "hp",
+                "value": "Block.hp-1"
               }
             },
             {
-              "id": "set-text",
-              "objectClass": "Message",
-              "sid": 250000000213,
+              "id": "set-instvar-value",
+              "objectClass": "Tank",
+              "sid": 250000000219,
               "parameters": {
-                "text": "\"A neighbour is in the way.\""
+                "instance-variable": "ammo",
+                "value": "Tank.ammo-1"
               }
             },
             {
-              "callFunction": "PlaySound",
-              "sid": 250000000214,
-              "parameters": [
-                "1"
-              ]
+              "id": "create-object",
+              "objectClass": "System",
+              "sid": 250000000220,
+              "parameters": {
+                "object-to-create": "Shot",
+                "layer": "\"Game\"",
+                "x": "Tank.X",
+                "y": "Tank.Y-30",
+                "create-hierarchy": false,
+                "template-name": "\"\""
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Shot",
+              "sid": 250000000221,
+              "parameters": {
+                "instance-variable": "age",
+                "value": "0"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Shot",
+              "sid": 250000000222,
+              "parameters": {
+                "instance-variable": "sx",
+                "value": "Tank.X"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Shot",
+              "sid": 250000000223,
+              "parameters": {
+                "instance-variable": "sy",
+                "value": "Tank.Y-30"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Shot",
+              "sid": 250000000224,
+              "parameters": {
+                "instance-variable": "tx",
+                "value": "Block.X"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Shot",
+              "sid": 250000000225,
+              "parameters": {
+                "instance-variable": "ty",
+                "value": "Block.Y"
+              }
             }
           ],
-          "sid": 250000000217,
+          "sid": 250000000232,
           "children": [
             {
               "eventType": "block",
-              "conditions": [],
-              "actions": [
+              "conditions": [
                 {
-                  "callFunction": "FlashBlocker",
-                  "sid": 250000000215
+                  "id": "compare-instance-variable",
+                  "objectClass": "Block",
+                  "sid": 250000000226,
+                  "parameters": {
+                    "instance-variable": "hp",
+                    "comparison": 0,
+                    "value": "0"
+                  }
                 }
               ],
-              "sid": 250000000216
+              "actions": [
+                {
+                  "id": "set-opacity",
+                  "objectClass": "Block",
+                  "sid": 250000000227,
+                  "parameters": {
+                    "opacity": "0"
+                  }
+                }
+              ],
+              "sid": 250000000231,
+              "children": [
+                {
+                  "eventType": "block",
+                  "conditions": [
+                    {
+                      "id": "for",
+                      "objectClass": "System",
+                      "sid": 250000000228,
+                      "parameters": {
+                        "name": "\"clear\"",
+                        "start-index": "0",
+                        "end-index": "Block.span-1"
+                      }
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "id": "set-at-xy",
+                      "objectClass": "Board",
+                      "sid": 250000000229,
+                      "parameters": {
+                        "x": "Block.gx+loopindex(\"clear\")",
+                        "y": "Block.gy",
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "sid": 250000000230
+                }
+              ]
             }
           ]
         }
@@ -1097,19 +1323,19 @@
         {
           "id": "every-tick",
           "objectClass": "System",
-          "sid": 250000000219
+          "sid": 250000000235
         }
       ],
       "actions": [],
-      "sid": 250000000274,
+      "sid": 250000000285,
       "children": [
         {
           "eventType": "block",
           "conditions": [
             {
               "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000220,
+              "objectClass": "Tank",
+              "sid": 250000000236,
               "parameters": {
                 "instance-variable": "phase",
                 "comparison": 0,
@@ -1119,135 +1345,230 @@
             {
               "id": "for-each",
               "objectClass": "System",
-              "sid": 250000000221,
+              "sid": 250000000237,
               "parameters": {
-                "object": "Vehicle"
+                "object": "Tank"
               }
             }
           ],
           "actions": [
             {
+              "callFunction": "QueueRank",
+              "sid": 250000000238,
+              "parameters": [
+                "Tank.tid"
+              ]
+            },
+            {
               "id": "set-position",
-              "objectClass": "Vehicle",
-              "sid": 250000000222,
+              "objectClass": "Tank",
+              "sid": 250000000239,
               "parameters": {
-                "x": "102+(Vehicle.gx+(Vehicle.dir%2=1 ? 1 : .5))*56+(Vehicle.bump>time ? sin((Vehicle.bump-time)*2200)*4 : 0)",
-                "y": "Top+(Vehicle.gy+(Vehicle.dir%2=1 ? .5 : 1))*56"
-              }
-            },
-            {
-              "id": "set-size",
-              "objectClass": "Vehicle",
-              "sid": 250000000223,
-              "parameters": {
-                "width": "50",
-                "height": "100"
-              }
-            },
-            {
-              "id": "set-angle",
-              "objectClass": "Vehicle",
-              "sid": 250000000224,
-              "parameters": {
-                "angle": "Vehicle.dir*90"
+                "x": "190+Tank.col*80",
+                "y": "760+FrontRank*78"
               }
             },
             {
               "id": "set-opacity",
-              "objectClass": "Vehicle",
-              "sid": 250000000225,
+              "objectClass": "Tank",
+              "sid": 250000000240,
               "parameters": {
-                "opacity": "Vehicle.flash>time ? 55+45*sin(time*1800) : 100"
+                "opacity": "FrontRank<3 ? (FrontRank=0 ? 100 : 55) : 0"
               }
             }
           ],
-          "sid": 250000000226
+          "sid": 250000000241
         },
         {
           "eventType": "block",
           "conditions": [
             {
               "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000227,
+              "objectClass": "Tank",
+              "sid": 250000000242,
               "parameters": {
                 "instance-variable": "phase",
                 "comparison": 0,
-                "value": "2"
+                "value": "1"
               }
             },
             {
               "id": "for-each",
               "objectClass": "System",
-              "sid": 250000000228,
+              "sid": 250000000243,
               "parameters": {
-                "object": "Vehicle"
+                "object": "Tank"
               }
             }
           ],
           "actions": [
             {
               "id": "set-position",
-              "objectClass": "Vehicle",
-              "sid": 250000000229,
+              "objectClass": "Tank",
+              "sid": 250000000244,
               "parameters": {
-                "x": "lerp(Vehicle.X,78+Vehicle.slot*64,min(1,dt*18))",
-                "y": "lerp(Vehicle.Y,787,min(1,dt*18))"
-              }
-            },
-            {
-              "id": "set-size",
-              "objectClass": "Vehicle",
-              "sid": 250000000230,
-              "parameters": {
-                "width": "27",
-                "height": "54"
-              }
-            },
-            {
-              "id": "set-angle",
-              "objectClass": "Vehicle",
-              "sid": 250000000231,
-              "parameters": {
-                "angle": "0"
+                "x": "94+Tank.bay*88",
+                "y": "658"
               }
             },
             {
               "id": "set-opacity",
-              "objectClass": "Vehicle",
-              "sid": 250000000232,
+              "objectClass": "Tank",
+              "sid": 250000000245,
               "parameters": {
                 "opacity": "100"
               }
             }
           ],
-          "sid": 250000000233
+          "sid": 250000000246
         },
         {
           "eventType": "block",
           "conditions": [
             {
               "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000234,
+              "objectClass": "Tank",
+              "sid": 250000000247,
               "parameters": {
                 "instance-variable": "phase",
                 "comparison": 0,
-                "value": "3"
+                "value": "2"
               }
             }
           ],
           "actions": [
             {
               "id": "set-opacity",
-              "objectClass": "Vehicle",
-              "sid": 250000000235,
+              "objectClass": "Tank",
+              "sid": 250000000248,
               "parameters": {
                 "opacity": "0"
               }
             }
           ],
-          "sid": 250000000236
+          "sid": 250000000249
+        },
+        {
+          "eventType": "block",
+          "conditions": [
+            {
+              "id": "compare-instance-variable",
+              "objectClass": "Numbers",
+              "sid": 250000000250,
+              "parameters": {
+                "instance-variable": "role",
+                "comparison": 0,
+                "value": "0"
+              }
+            },
+            {
+              "id": "for-each",
+              "objectClass": "System",
+              "sid": 250000000251,
+              "parameters": {
+                "object": "Numbers"
+              }
+            },
+            {
+              "id": "compare-instance-variable",
+              "objectClass": "Block",
+              "sid": 250000000252,
+              "parameters": {
+                "instance-variable": "bid",
+                "comparison": 0,
+                "value": "Numbers.owner"
+              }
+            }
+          ],
+          "actions": [
+            {
+              "id": "set-position",
+              "objectClass": "Numbers",
+              "sid": 250000000253,
+              "parameters": {
+                "x": "Block.X-40",
+                "y": "Block.Y-20"
+              }
+            },
+            {
+              "id": "set-text",
+              "objectClass": "Numbers",
+              "sid": 250000000254,
+              "parameters": {
+                "text": "str(Block.hp)"
+              }
+            },
+            {
+              "id": "set-opacity",
+              "objectClass": "Numbers",
+              "sid": 250000000255,
+              "parameters": {
+                "opacity": "Block.hp>0 ? 100 : 0"
+              }
+            }
+          ],
+          "sid": 250000000256
+        },
+        {
+          "eventType": "block",
+          "conditions": [
+            {
+              "id": "compare-instance-variable",
+              "objectClass": "Numbers",
+              "sid": 250000000257,
+              "parameters": {
+                "instance-variable": "role",
+                "comparison": 0,
+                "value": "1"
+              }
+            },
+            {
+              "id": "for-each",
+              "objectClass": "System",
+              "sid": 250000000258,
+              "parameters": {
+                "object": "Numbers"
+              }
+            },
+            {
+              "id": "compare-instance-variable",
+              "objectClass": "Tank",
+              "sid": 250000000259,
+              "parameters": {
+                "instance-variable": "tid",
+                "comparison": 0,
+                "value": "Numbers.owner"
+              }
+            }
+          ],
+          "actions": [
+            {
+              "id": "set-position",
+              "objectClass": "Numbers",
+              "sid": 250000000260,
+              "parameters": {
+                "x": "Tank.X-40",
+                "y": "Tank.Y-7"
+              }
+            },
+            {
+              "id": "set-text",
+              "objectClass": "Numbers",
+              "sid": 250000000261,
+              "parameters": {
+                "text": "str(Tank.ammo)"
+              }
+            },
+            {
+              "id": "set-opacity",
+              "objectClass": "Numbers",
+              "sid": 250000000262,
+              "parameters": {
+                "opacity": "Tank.Opacity"
+              }
+            }
+          ],
+          "sid": 250000000263
         },
         {
           "eventType": "block",
@@ -1255,11 +1576,11 @@
             {
               "id": "compare-two-values",
               "objectClass": "System",
-              "sid": 250000000237,
+              "sid": 250000000264,
               "parameters": {
                 "first-value": "State",
                 "comparison": 0,
-                "second-value": "\"ResolvingMove\""
+                "second-value": "\"Playing\""
               }
             }
           ],
@@ -1267,157 +1588,104 @@
             {
               "id": "set-eventvar-value",
               "objectClass": "System",
-              "sid": 250000000238,
+              "sid": 250000000265,
               "parameters": {
-                "variable": "MoveAge",
-                "value": "MoveAge+dt"
+                "variable": "Clock",
+                "value": "Clock+dt"
               }
             }
           ],
-          "sid": 250000000256,
+          "sid": 250000000270,
+          "children": [
+            {
+              "eventType": "block",
+              "conditions": [
+                {
+                  "id": "compare-two-values",
+                  "objectClass": "System",
+                  "sid": 250000000266,
+                  "parameters": {
+                    "first-value": "Clock",
+                    "comparison": 5,
+                    "second-value": ".16"
+                  }
+                }
+              ],
+              "actions": [
+                {
+                  "id": "set-eventvar-value",
+                  "objectClass": "System",
+                  "sid": 250000000267,
+                  "parameters": {
+                    "variable": "Clock",
+                    "value": "0"
+                  }
+                },
+                {
+                  "callFunction": "Volley",
+                  "sid": 250000000268
+                }
+              ],
+              "sid": 250000000269
+            }
+          ]
+        },
+        {
+          "eventType": "block",
+          "conditions": [
+            {
+              "id": "for-each",
+              "objectClass": "System",
+              "sid": 250000000271,
+              "parameters": {
+                "object": "Shot"
+              }
+            }
+          ],
+          "actions": [
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Shot",
+              "sid": 250000000272,
+              "parameters": {
+                "instance-variable": "age",
+                "value": "Shot.age+dt"
+              }
+            },
+            {
+              "id": "set-position",
+              "objectClass": "Shot",
+              "sid": 250000000273,
+              "parameters": {
+                "x": "lerp(Shot.sx,Shot.tx,min(1,Shot.age/.15))",
+                "y": "lerp(Shot.sy,Shot.ty,min(1,Shot.age/.15))"
+              }
+            }
+          ],
+          "sid": 250000000277,
           "children": [
             {
               "eventType": "block",
               "conditions": [
                 {
                   "id": "compare-instance-variable",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000239,
+                  "objectClass": "Shot",
+                  "sid": 250000000274,
                   "parameters": {
-                    "instance-variable": "phase",
-                    "comparison": 0,
-                    "value": "1"
-                  }
-                },
-                {
-                  "id": "compare-two-values",
-                  "objectClass": "System",
-                  "sid": 250000000240,
-                  "parameters": {
-                    "first-value": "MoveAge",
-                    "comparison": 2,
-                    "second-value": ".21"
-                  }
-                }
-              ],
-              "actions": [
-                {
-                  "id": "set-position",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000241,
-                  "parameters": {
-                    "x": "lerp(Vehicle.sx,Vehicle.ex,MoveAge/.21)",
-                    "y": "lerp(Vehicle.sy,Vehicle.ey,MoveAge/.21)"
-                  }
-                }
-              ],
-              "sid": 250000000242
-            },
-            {
-              "eventType": "block",
-              "conditions": [
-                {
-                  "id": "compare-instance-variable",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000243,
-                  "parameters": {
-                    "instance-variable": "phase",
-                    "comparison": 0,
-                    "value": "1"
-                  }
-                },
-                {
-                  "id": "compare-two-values",
-                  "objectClass": "System",
-                  "sid": 250000000244,
-                  "parameters": {
-                    "first-value": "MoveAge",
+                    "instance-variable": "age",
                     "comparison": 5,
-                    "second-value": ".21"
+                    "value": ".15"
                   }
                 }
               ],
               "actions": [
                 {
-                  "id": "set-position",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000245,
-                  "parameters": {
-                    "x": "lerp(Vehicle.ex,78+TrayCount*64,min(1,(MoveAge-.21)/.31))",
-                    "y": "lerp(Vehicle.ey,787,min(1,(MoveAge-.21)/.31))-sin(min(1,(MoveAge-.21)/.31)*180)*65"
-                  }
-                },
-                {
-                  "id": "set-size",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000246,
-                  "parameters": {
-                    "width": "lerp(50,27,min(1,(MoveAge-.21)/.31))",
-                    "height": "lerp(100,54,min(1,(MoveAge-.21)/.31))"
-                  }
-                },
-                {
-                  "id": "set-angle",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000247,
-                  "parameters": {
-                    "angle": "Vehicle.dir*90*(1-min(1,(MoveAge-.21)/.31))"
-                  }
+                  "id": "destroy",
+                  "objectClass": "Shot",
+                  "sid": 250000000275
                 }
               ],
-              "sid": 250000000248
-            },
-            {
-              "eventType": "block",
-              "conditions": [
-                {
-                  "id": "compare-instance-variable",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000249,
-                  "parameters": {
-                    "instance-variable": "phase",
-                    "comparison": 0,
-                    "value": "1"
-                  }
-                },
-                {
-                  "id": "compare-two-values",
-                  "objectClass": "System",
-                  "sid": 250000000250,
-                  "parameters": {
-                    "first-value": "MoveAge",
-                    "comparison": 5,
-                    "second-value": ".52"
-                  }
-                }
-              ],
-              "actions": [
-                {
-                  "id": "set-instvar-value",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000251,
-                  "parameters": {
-                    "instance-variable": "phase",
-                    "value": "2"
-                  }
-                },
-                {
-                  "callFunction": "MatchKind",
-                  "sid": 250000000252,
-                  "parameters": [
-                    "Vehicle.kind"
-                  ]
-                },
-                {
-                  "callFunction": "SortTray",
-                  "sid": 250000000253
-                },
-                {
-                  "callFunction": "Outcome",
-                  "sid": 250000000254
-                }
-              ],
-              "sid": 250000000255
+              "sid": 250000000276
             }
           ]
         },
@@ -1428,71 +1696,31 @@
             {
               "id": "set-text",
               "objectClass": "LevelLabel",
-              "sid": 250000000257,
+              "sid": 250000000278,
               "parameters": {
                 "text": "\"LEVEL \" & (Level+1) & \" / 40\""
               }
             },
             {
               "id": "set-text",
-              "objectClass": "LevelName",
-              "sid": 250000000258,
+              "objectClass": "ModalTitle",
+              "sid": 250000000279,
               "parameters": {
-                "text": "Campaign.Get(str(Level) & \".name\")"
-              }
-            },
-            {
-              "id": "set-text",
-              "objectClass": "TrayLabel",
-              "sid": 250000000259,
-              "parameters": {
-                "text": "TrayCount & \" / 7 parked   \u00b7   \" & Matches & \" trios cleared\""
-              }
-            },
-            {
-              "id": "set-text",
-              "objectClass": "FooterLabel",
-              "sid": 250000000260,
-              "parameters": {
-                "text": "\"40 levels\n\u2039 choose above \u203a\""
-              }
-            },
-            {
-              "id": "set-opacity",
-              "objectClass": "Hand",
-              "sid": 250000000261,
-              "parameters": {
-                "opacity": "Level=0 & Moves=0 & State=\"Playing\" ? 100 : 0"
-              }
-            },
-            {
-              "id": "set-opacity",
-              "objectClass": "Modal",
-              "sid": 250000000262,
-              "parameters": {
-                "opacity": "State=\"Won\" | State=\"Lost\" | State=\"Paused\" ? 100 : 0"
+                "text": "State=\"Won\" ? \"BOARD CLEARED!\" : State=\"Lost\" ? \"TANK JAM!\" : \"TAKE A BREATHER\""
               }
             },
             {
               "id": "set-opacity",
               "objectClass": "ModalTitle",
-              "sid": 250000000263,
+              "sid": 250000000280,
               "parameters": {
-                "opacity": "State=\"Won\" | State=\"Lost\" | State=\"Paused\" ? 100 : 0"
-              }
-            },
-            {
-              "id": "set-opacity",
-              "objectClass": "ModalCaption",
-              "sid": 250000000264,
-              "parameters": {
-                "opacity": "State=\"Won\" | State=\"Lost\" | State=\"Paused\" ? 100 : 0"
+                "opacity": "State=\"Playing\" ? 0 : 100"
               }
             },
             {
               "id": "set-opacity",
               "objectClass": "Next",
-              "sid": 250000000265,
+              "sid": 250000000281,
               "parameters": {
                 "opacity": "State=\"Won\" ? 100 : 0"
               }
@@ -1500,7 +1728,7 @@
             {
               "id": "set-opacity",
               "objectClass": "Retry",
-              "sid": 250000000266,
+              "sid": 250000000282,
               "parameters": {
                 "opacity": "State=\"Lost\" ? 100 : 0"
               }
@@ -1508,371 +1736,144 @@
             {
               "id": "set-opacity",
               "objectClass": "Resume",
-              "sid": 250000000267,
+              "sid": 250000000283,
               "parameters": {
                 "opacity": "State=\"Paused\" ? 100 : 0"
               }
-            },
-            {
-              "id": "set-text",
-              "objectClass": "ModalTitle",
-              "sid": 250000000268,
-              "parameters": {
-                "text": "State=\"Won\" ? \"Beautifully untangled!\" : State=\"Lost\" ? \"A little traffic jam\" : \"A little breather\""
-              }
-            },
-            {
-              "id": "set-text",
-              "objectClass": "ModalCaption",
-              "sid": 250000000269,
-              "parameters": {
-                "text": "State=\"Won\" ? Matches & \" trios cleared \u00b7 \" & Moves & \" clever moves\" : State=\"Lost\" ? \"Undo or try a different order.\" : \"Your little cars will wait for you.\""
-              }
-            },
-            {
-              "id": "set-opacity",
-              "objectClass": "Undo",
-              "sid": 250000000270,
-              "parameters": {
-                "opacity": "Moves>0 & State<>\"ResolvingMove\" & State<>\"Paused\" ? 100 : 40"
-              }
-            },
-            {
-              "id": "set-opacity",
-              "objectClass": "Hint",
-              "sid": 250000000271,
-              "parameters": {
-                "opacity": "State=\"Playing\" ? 100 : 40"
-              }
-            },
-            {
-              "id": "set-opacity",
-              "objectClass": "Sound",
-              "sid": 250000000272,
-              "parameters": {
-                "opacity": "Muted=0 ? 100 : 40"
-              }
             }
           ],
-          "sid": 250000000273
+          "sid": 250000000284
         }
       ]
     },
     {
-      "functionName": "MatchKind",
+      "functionName": "Volley",
       "functionDescription": "",
-      "functionCategory": "Toy Traffic Trio",
-      "functionReturnType": "none",
-      "functionCopyPicked": false,
-      "functionIsAsync": false,
-      "functionParameters": [
-        {
-          "name": "matchType",
-          "type": "number",
-          "initialValue": "0",
-          "comment": "",
-          "sid": 250000000289
-        }
-      ],
-      "eventType": "function-block",
-      "conditions": [],
-      "actions": [
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000275,
-          "parameters": {
-            "variable": "MatchCount",
-            "value": "0"
-          }
-        }
-      ],
-      "sid": 250000000290,
-      "children": [
-        {
-          "eventType": "block",
-          "conditions": [
-            {
-              "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000276,
-              "parameters": {
-                "instance-variable": "phase",
-                "comparison": 0,
-                "value": "2"
-              }
-            },
-            {
-              "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000277,
-              "parameters": {
-                "instance-variable": "kind",
-                "comparison": 0,
-                "value": "matchType"
-              }
-            },
-            {
-              "id": "for-each",
-              "objectClass": "System",
-              "sid": 250000000278,
-              "parameters": {
-                "object": "Vehicle"
-              }
-            }
-          ],
-          "actions": [
-            {
-              "id": "set-eventvar-value",
-              "objectClass": "System",
-              "sid": 250000000279,
-              "parameters": {
-                "variable": "MatchCount",
-                "value": "MatchCount+1"
-              }
-            }
-          ],
-          "sid": 250000000280
-        },
-        {
-          "eventType": "block",
-          "conditions": [
-            {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000281,
-              "parameters": {
-                "first-value": "MatchCount",
-                "comparison": 0,
-                "second-value": "3"
-              }
-            },
-            {
-              "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000282,
-              "parameters": {
-                "instance-variable": "phase",
-                "comparison": 0,
-                "value": "2"
-              }
-            },
-            {
-              "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000283,
-              "parameters": {
-                "instance-variable": "kind",
-                "comparison": 0,
-                "value": "matchType"
-              }
-            }
-          ],
-          "actions": [
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000284,
-              "parameters": {
-                "instance-variable": "phase",
-                "value": "3"
-              }
-            },
-            {
-              "id": "set-opacity",
-              "objectClass": "Vehicle",
-              "sid": 250000000285,
-              "parameters": {
-                "opacity": "0"
-              }
-            },
-            {
-              "id": "set-eventvar-value",
-              "objectClass": "System",
-              "sid": 250000000286,
-              "parameters": {
-                "variable": "Matches",
-                "value": "Matches+1"
-              }
-            },
-            {
-              "callFunction": "PlaySound",
-              "sid": 250000000287,
-              "parameters": [
-                "2"
-              ]
-            }
-          ],
-          "sid": 250000000288
-        }
-      ]
-    },
-    {
-      "functionName": "SortTray",
-      "functionDescription": "",
-      "functionCategory": "Toy Traffic Trio",
+      "functionCategory": "Buster Block Shooter",
       "functionReturnType": "none",
       "functionCopyPicked": false,
       "functionIsAsync": false,
       "functionParameters": [],
       "eventType": "function-block",
       "conditions": [],
-      "actions": [
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000291,
-          "parameters": {
-            "variable": "TrayCount",
-            "value": "0"
-          }
-        }
-      ],
-      "sid": 250000000300,
+      "actions": [],
+      "sid": 250000000317,
       "children": [
         {
           "eventType": "block",
           "conditions": [
             {
-              "id": "for",
-              "objectClass": "System",
-              "sid": 250000000292,
+              "id": "compare-instance-variable",
+              "objectClass": "Tank",
+              "sid": 250000000286,
               "parameters": {
-                "name": "\"types\"",
-                "start-index": "0",
-                "end-index": "5"
+                "instance-variable": "phase",
+                "comparison": 0,
+                "value": "1"
+              }
+            },
+            {
+              "id": "for-each",
+              "objectClass": "System",
+              "sid": 250000000287,
+              "parameters": {
+                "object": "Tank"
               }
             }
           ],
-          "actions": [],
-          "sid": 250000000299,
+          "actions": [
+            {
+              "callFunction": "Shoot",
+              "sid": 250000000288,
+              "parameters": [
+                "Tank.kind"
+              ]
+            }
+          ],
+          "sid": 250000000292,
           "children": [
             {
               "eventType": "block",
               "conditions": [
                 {
                   "id": "compare-instance-variable",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000293,
+                  "objectClass": "Tank",
+                  "sid": 250000000289,
                   "parameters": {
-                    "instance-variable": "phase",
+                    "instance-variable": "ammo",
                     "comparison": 0,
-                    "value": "2"
-                  }
-                },
-                {
-                  "id": "compare-instance-variable",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000294,
-                  "parameters": {
-                    "instance-variable": "kind",
-                    "comparison": 0,
-                    "value": "loopindex(\"types\")"
-                  }
-                },
-                {
-                  "id": "for-each",
-                  "objectClass": "System",
-                  "sid": 250000000295,
-                  "parameters": {
-                    "object": "Vehicle"
+                    "value": "0"
                   }
                 }
               ],
               "actions": [
                 {
                   "id": "set-instvar-value",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000296,
+                  "objectClass": "Tank",
+                  "sid": 250000000290,
                   "parameters": {
-                    "instance-variable": "slot",
-                    "value": "TrayCount"
-                  }
-                },
-                {
-                  "id": "set-eventvar-value",
-                  "objectClass": "System",
-                  "sid": 250000000297,
-                  "parameters": {
-                    "variable": "TrayCount",
-                    "value": "TrayCount+1"
+                    "instance-variable": "phase",
+                    "value": "2"
                   }
                 }
               ],
-              "sid": 250000000298
+              "sid": 250000000291
             }
           ]
-        }
-      ]
-    },
-    {
-      "functionName": "Outcome",
-      "functionDescription": "",
-      "functionCategory": "Toy Traffic Trio",
-      "functionReturnType": "none",
-      "functionCopyPicked": false,
-      "functionIsAsync": false,
-      "functionParameters": [],
-      "eventType": "function-block",
-      "conditions": [],
-      "actions": [
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000301,
-          "parameters": {
-            "variable": "Remaining",
-            "value": "0"
-          }
         },
         {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000302,
-          "parameters": {
-            "variable": "Legal",
-            "value": "0"
-          }
+          "eventType": "block",
+          "conditions": [],
+          "actions": [
+            {
+              "id": "set-eventvar-value",
+              "objectClass": "System",
+              "sid": 250000000293,
+              "parameters": {
+                "variable": "Remaining",
+                "value": "0"
+              }
+            },
+            {
+              "id": "set-eventvar-value",
+              "objectClass": "System",
+              "sid": 250000000294,
+              "parameters": {
+                "variable": "ActiveCount",
+                "value": "0"
+              }
+            },
+            {
+              "id": "set-eventvar-value",
+              "objectClass": "System",
+              "sid": 250000000295,
+              "parameters": {
+                "variable": "Shootable",
+                "value": "0"
+              }
+            }
+          ],
+          "sid": 250000000296
         },
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000303,
-          "parameters": {
-            "variable": "State",
-            "value": "\"Playing\""
-          }
-        },
-        {
-          "id": "set-text",
-          "objectClass": "Message",
-          "sid": 250000000304,
-          "parameters": {
-            "text": "Level=0 & Moves=1 ? \"Match 3 to clear!\" : \"Find your next little trio.\""
-          }
-        }
-      ],
-      "sid": 250000000326,
-      "children": [
         {
           "eventType": "block",
           "conditions": [
             {
               "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000305,
+              "objectClass": "Block",
+              "sid": 250000000297,
               "parameters": {
-                "instance-variable": "phase",
-                "comparison": 0,
+                "instance-variable": "hp",
+                "comparison": 4,
                 "value": "0"
               }
             },
             {
               "id": "for-each",
               "objectClass": "System",
-              "sid": 250000000306,
+              "sid": 250000000298,
               "parameters": {
-                "object": "Vehicle"
+                "object": "Block"
               }
             }
           ],
@@ -1880,21 +1881,56 @@
             {
               "id": "set-eventvar-value",
               "objectClass": "System",
-              "sid": 250000000307,
+              "sid": 250000000299,
               "parameters": {
                 "variable": "Remaining",
                 "value": "Remaining+1"
               }
+            }
+          ],
+          "sid": 250000000300
+        },
+        {
+          "eventType": "block",
+          "conditions": [
+            {
+              "id": "compare-instance-variable",
+              "objectClass": "Tank",
+              "sid": 250000000301,
+              "parameters": {
+                "instance-variable": "phase",
+                "comparison": 0,
+                "value": "1"
+              }
             },
             {
-              "callFunction": "CanExit",
-              "sid": 250000000308,
+              "id": "for-each",
+              "objectClass": "System",
+              "sid": 250000000302,
+              "parameters": {
+                "object": "Tank"
+              }
+            }
+          ],
+          "actions": [
+            {
+              "id": "set-eventvar-value",
+              "objectClass": "System",
+              "sid": 250000000303,
+              "parameters": {
+                "variable": "ActiveCount",
+                "value": "ActiveCount+1"
+              }
+            },
+            {
+              "callFunction": "FindTarget",
+              "sid": 250000000304,
               "parameters": [
-                "Vehicle.vid"
+                "Tank.kind"
               ]
             }
           ],
-          "sid": 250000000312,
+          "sid": 250000000308,
           "children": [
             {
               "eventType": "block",
@@ -1902,10 +1938,10 @@
                 {
                   "id": "compare-two-values",
                   "objectClass": "System",
-                  "sid": 250000000309,
+                  "sid": 250000000305,
                   "parameters": {
-                    "first-value": "Blocker",
-                    "comparison": 0,
+                    "first-value": "TargetID",
+                    "comparison": 5,
                     "second-value": "0"
                   }
                 }
@@ -1914,14 +1950,14 @@
                 {
                   "id": "set-eventvar-value",
                   "objectClass": "System",
-                  "sid": 250000000310,
+                  "sid": 250000000306,
                   "parameters": {
-                    "variable": "Legal",
-                    "value": "Legal+1"
+                    "variable": "Shootable",
+                    "value": "Shootable+1"
                   }
                 }
               ],
-              "sid": 250000000311
+              "sid": 250000000307
             }
           ]
         },
@@ -1931,9 +1967,46 @@
             {
               "id": "compare-two-values",
               "objectClass": "System",
-              "sid": 250000000313,
+              "sid": 250000000309,
               "parameters": {
                 "first-value": "Remaining",
+                "comparison": 0,
+                "second-value": "0"
+              }
+            }
+          ],
+          "actions": [
+            {
+              "id": "set-eventvar-value",
+              "objectClass": "System",
+              "sid": 250000000310,
+              "parameters": {
+                "variable": "State",
+                "value": "\"Won\""
+              }
+            }
+          ],
+          "sid": 250000000311
+        },
+        {
+          "eventType": "block",
+          "conditions": [
+            {
+              "id": "compare-two-values",
+              "objectClass": "System",
+              "sid": 250000000312,
+              "parameters": {
+                "first-value": "ActiveCount",
+                "comparison": 0,
+                "second-value": "5"
+              }
+            },
+            {
+              "id": "compare-two-values",
+              "objectClass": "System",
+              "sid": 250000000313,
+              "parameters": {
+                "first-value": "Shootable",
                 "comparison": 0,
                 "second-value": "0"
               }
@@ -1943,8 +2016,8 @@
               "objectClass": "System",
               "sid": 250000000314,
               "parameters": {
-                "first-value": "TrayCount",
-                "comparison": 0,
+                "first-value": "Remaining",
+                "comparison": 4,
                 "second-value": "0"
               }
             }
@@ -1956,173 +2029,11 @@
               "sid": 250000000315,
               "parameters": {
                 "variable": "State",
-                "value": "\"Won\""
-              }
-            },
-            {
-              "callFunction": "PlaySound",
-              "sid": 250000000316,
-              "parameters": [
-                "3"
-              ]
-            }
-          ],
-          "sid": 250000000317
-        },
-        {
-          "eventType": "block",
-          "conditions": [
-            {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000318,
-              "parameters": {
-                "first-value": "TrayCount",
-                "comparison": 0,
-                "second-value": "7"
-              }
-            }
-          ],
-          "actions": [
-            {
-              "id": "set-eventvar-value",
-              "objectClass": "System",
-              "sid": 250000000319,
-              "parameters": {
-                "variable": "State",
                 "value": "\"Lost\""
               }
             }
           ],
-          "sid": 250000000320
-        },
-        {
-          "eventType": "block",
-          "conditions": [
-            {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000321,
-              "parameters": {
-                "first-value": "Remaining",
-                "comparison": 4,
-                "second-value": "0"
-              }
-            },
-            {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000322,
-              "parameters": {
-                "first-value": "Legal",
-                "comparison": 0,
-                "second-value": "0"
-              }
-            }
-          ],
-          "actions": [
-            {
-              "id": "set-eventvar-value",
-              "objectClass": "System",
-              "sid": 250000000323,
-              "parameters": {
-                "variable": "State",
-                "value": "\"Lost\""
-              }
-            },
-            {
-              "id": "set-text",
-              "objectClass": "Message",
-              "sid": 250000000324,
-              "parameters": {
-                "text": "\"No open routes. Undo or try again.\""
-              }
-            }
-          ],
-          "sid": 250000000325
-        }
-      ]
-    },
-    {
-      "functionName": "UndoMove",
-      "functionDescription": "",
-      "functionCategory": "Toy Traffic Trio",
-      "functionReturnType": "none",
-      "functionCopyPicked": false,
-      "functionIsAsync": false,
-      "functionParameters": [],
-      "eventType": "function-block",
-      "conditions": [],
-      "actions": [
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000327,
-          "parameters": {
-            "variable": "State",
-            "value": "\"Loading\""
-          }
-        }
-      ],
-      "sid": 250000000336,
-      "children": [
-        {
-          "eventType": "block",
-          "conditions": [
-            {
-              "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000328,
-              "parameters": {
-                "instance-variable": "arrival",
-                "comparison": 0,
-                "value": "Moves"
-              }
-            }
-          ],
-          "actions": [
-            {
-              "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000329,
-              "parameters": {
-                "instance-variable": "arrival",
-                "value": "0"
-              }
-            }
-          ],
-          "sid": 250000000330
-        },
-        {
-          "eventType": "block",
-          "conditions": [],
-          "actions": [
-            {
-              "id": "set-eventvar-value",
-              "objectClass": "System",
-              "sid": 250000000331,
-              "parameters": {
-                "variable": "Moves",
-                "value": "Moves-1"
-              }
-            },
-            {
-              "callFunction": "Rebuild",
-              "sid": 250000000332
-            },
-            {
-              "callFunction": "Outcome",
-              "sid": 250000000333
-            },
-            {
-              "callFunction": "PlaySound",
-              "sid": 250000000334,
-              "parameters": [
-                "4"
-              ]
-            }
-          ],
-          "sid": 250000000335
+          "sid": 250000000316
         }
       ]
     },
@@ -2132,79 +2043,19 @@
         {
           "id": "on-tap-object",
           "objectClass": "Touch",
-          "sid": 250000000361,
-          "parameters": {
-            "object": "Undo"
-          }
-        },
-        {
-          "id": "compare-two-values",
-          "objectClass": "System",
-          "sid": 250000000337,
-          "parameters": {
-            "first-value": "Moves",
-            "comparison": 4,
-            "second-value": "0"
-          }
-        },
-        {
-          "id": "compare-two-values",
-          "objectClass": "System",
-          "sid": 250000000338,
-          "parameters": {
-            "first-value": "State",
-            "comparison": 1,
-            "second-value": "\"ResolvingMove\""
-          }
-        },
-        {
-          "id": "compare-two-values",
-          "objectClass": "System",
-          "sid": 250000000339,
-          "parameters": {
-            "first-value": "State",
-            "comparison": 1,
-            "second-value": "\"Paused\""
-          }
-        }
-      ],
-      "actions": [
-        {
-          "callFunction": "UndoMove",
-          "sid": 250000000340
-        }
-      ],
-      "sid": 250000000362
-    },
-    {
-      "eventType": "block",
-      "conditions": [
-        {
-          "id": "on-tap-object",
-          "objectClass": "Touch",
-          "sid": 250000000363,
+          "sid": 250000000331,
           "parameters": {
             "object": "Restart"
-          }
-        },
-        {
-          "id": "compare-two-values",
-          "objectClass": "System",
-          "sid": 250000000341,
-          "parameters": {
-            "first-value": "State",
-            "comparison": 1,
-            "second-value": "\"ResolvingMove\""
           }
         }
       ],
       "actions": [
         {
           "callFunction": "LoadLevel",
-          "sid": 250000000342
+          "sid": 250000000318
         }
       ],
-      "sid": 250000000364
+      "sid": 250000000332
     },
     {
       "eventType": "block",
@@ -2212,7 +2063,7 @@
         {
           "id": "on-tap-object",
           "objectClass": "Touch",
-          "sid": 250000000365,
+          "sid": 250000000333,
           "parameters": {
             "object": "Retry"
           }
@@ -2220,7 +2071,7 @@
         {
           "id": "compare-two-values",
           "objectClass": "System",
-          "sid": 250000000343,
+          "sid": 250000000319,
           "parameters": {
             "first-value": "State",
             "comparison": 0,
@@ -2231,10 +2082,10 @@
       "actions": [
         {
           "callFunction": "LoadLevel",
-          "sid": 250000000344
+          "sid": 250000000320
         }
       ],
-      "sid": 250000000366
+      "sid": 250000000334
     },
     {
       "eventType": "block",
@@ -2242,7 +2093,7 @@
         {
           "id": "on-tap-object",
           "objectClass": "Touch",
-          "sid": 250000000367,
+          "sid": 250000000335,
           "parameters": {
             "object": "Next"
           }
@@ -2250,7 +2101,7 @@
         {
           "id": "compare-two-values",
           "objectClass": "System",
-          "sid": 250000000345,
+          "sid": 250000000321,
           "parameters": {
             "first-value": "State",
             "comparison": 0,
@@ -2262,7 +2113,7 @@
         {
           "id": "set-eventvar-value",
           "objectClass": "System",
-          "sid": 250000000346,
+          "sid": 250000000322,
           "parameters": {
             "variable": "Level",
             "value": "(Level+1)%40"
@@ -2270,10 +2121,10 @@
         },
         {
           "callFunction": "LoadLevel",
-          "sid": 250000000347
+          "sid": 250000000323
         }
       ],
-      "sid": 250000000368
+      "sid": 250000000336
     },
     {
       "eventType": "block",
@@ -2281,85 +2132,7 @@
         {
           "id": "on-tap-object",
           "objectClass": "Touch",
-          "sid": 250000000369,
-          "parameters": {
-            "object": "Previous"
-          }
-        },
-        {
-          "id": "compare-two-values",
-          "objectClass": "System",
-          "sid": 250000000348,
-          "parameters": {
-            "first-value": "State",
-            "comparison": 0,
-            "second-value": "\"Playing\""
-          }
-        }
-      ],
-      "actions": [
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000349,
-          "parameters": {
-            "variable": "Level",
-            "value": "(Level+39)%40"
-          }
-        },
-        {
-          "callFunction": "LoadLevel",
-          "sid": 250000000350
-        }
-      ],
-      "sid": 250000000370
-    },
-    {
-      "eventType": "block",
-      "conditions": [
-        {
-          "id": "on-tap-object",
-          "objectClass": "Touch",
-          "sid": 250000000371,
-          "parameters": {
-            "object": "Forward"
-          }
-        },
-        {
-          "id": "compare-two-values",
-          "objectClass": "System",
-          "sid": 250000000351,
-          "parameters": {
-            "first-value": "State",
-            "comparison": 0,
-            "second-value": "\"Playing\""
-          }
-        }
-      ],
-      "actions": [
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000352,
-          "parameters": {
-            "variable": "Level",
-            "value": "(Level+1)%40"
-          }
-        },
-        {
-          "callFunction": "LoadLevel",
-          "sid": 250000000353
-        }
-      ],
-      "sid": 250000000372
-    },
-    {
-      "eventType": "block",
-      "conditions": [
-        {
-          "id": "on-tap-object",
-          "objectClass": "Touch",
-          "sid": 250000000373,
+          "sid": 250000000337,
           "parameters": {
             "object": "Pause"
           }
@@ -2367,7 +2140,7 @@
         {
           "id": "compare-two-values",
           "objectClass": "System",
-          "sid": 250000000354,
+          "sid": 250000000324,
           "parameters": {
             "first-value": "State",
             "comparison": 0,
@@ -2379,14 +2152,14 @@
         {
           "id": "set-eventvar-value",
           "objectClass": "System",
-          "sid": 250000000355,
+          "sid": 250000000325,
           "parameters": {
             "variable": "State",
             "value": "\"Paused\""
           }
         }
       ],
-      "sid": 250000000374
+      "sid": 250000000338
     },
     {
       "eventType": "block",
@@ -2394,7 +2167,7 @@
         {
           "id": "on-tap-object",
           "objectClass": "Touch",
-          "sid": 250000000375,
+          "sid": 250000000339,
           "parameters": {
             "object": "Resume"
           }
@@ -2402,7 +2175,7 @@
         {
           "id": "compare-two-values",
           "objectClass": "System",
-          "sid": 250000000356,
+          "sid": 250000000326,
           "parameters": {
             "first-value": "State",
             "comparison": 0,
@@ -2414,14 +2187,14 @@
         {
           "id": "set-eventvar-value",
           "objectClass": "System",
-          "sid": 250000000357,
+          "sid": 250000000327,
           "parameters": {
             "variable": "State",
             "value": "\"Playing\""
           }
         }
       ],
-      "sid": 250000000376
+      "sid": 250000000340
     },
     {
       "eventType": "block",
@@ -2429,24 +2202,23 @@
         {
           "id": "on-tap-object",
           "objectClass": "Touch",
-          "sid": 250000000377,
+          "sid": 250000000341,
           "parameters": {
-            "object": "Sound"
+            "object": "Hint"
           }
         }
       ],
       "actions": [
         {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000358,
+          "id": "set-text",
+          "objectClass": "Message",
+          "sid": 250000000328,
           "parameters": {
-            "variable": "Muted",
-            "value": "1-Muted"
+            "text": "\"Pick a colour with an open path from below.\""
           }
         }
       ],
-      "sid": 250000000378
+      "sid": 250000000342
     },
     {
       "eventType": "block",
@@ -2454,148 +2226,34 @@
         {
           "id": "on-tap-object",
           "objectClass": "Touch",
-          "sid": 250000000379,
+          "sid": 250000000343,
           "parameters": {
-            "object": "Hint"
+            "object": "Undo"
           }
         },
         {
           "id": "compare-two-values",
           "objectClass": "System",
-          "sid": 250000000359,
+          "sid": 250000000329,
           "parameters": {
-            "first-value": "State",
-            "comparison": 0,
-            "second-value": "\"Playing\""
+            "first-value": "UndoCount",
+            "comparison": 4,
+            "second-value": "0"
           }
         }
       ],
       "actions": [
         {
-          "callFunction": "FindHint",
-          "sid": 250000000360
+          "callFunction": "UndoMove",
+          "sid": 250000000330
         }
       ],
-      "sid": 250000000380
+      "sid": 250000000344
     },
     {
-      "functionName": "FindHint",
+      "functionName": "Snapshot",
       "functionDescription": "",
-      "functionCategory": "Toy Traffic Trio",
-      "functionReturnType": "none",
-      "functionCopyPicked": false,
-      "functionIsAsync": false,
-      "functionParameters": [],
-      "eventType": "function-block",
-      "conditions": [],
-      "actions": [
-        {
-          "id": "set-eventvar-value",
-          "objectClass": "System",
-          "sid": 250000000381,
-          "parameters": {
-            "variable": "HintID",
-            "value": "-1"
-          }
-        }
-      ],
-      "sid": 250000000392,
-      "children": [
-        {
-          "eventType": "block",
-          "conditions": [
-            {
-              "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000382,
-              "parameters": {
-                "instance-variable": "phase",
-                "comparison": 0,
-                "value": "0"
-              }
-            },
-            {
-              "id": "for-each",
-              "objectClass": "System",
-              "sid": 250000000383,
-              "parameters": {
-                "object": "Vehicle"
-              }
-            },
-            {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000384,
-              "parameters": {
-                "first-value": "HintID",
-                "comparison": 0,
-                "second-value": "-1"
-              }
-            }
-          ],
-          "actions": [
-            {
-              "callFunction": "CanExit",
-              "sid": 250000000385,
-              "parameters": [
-                "Vehicle.vid"
-              ]
-            }
-          ],
-          "sid": 250000000391,
-          "children": [
-            {
-              "eventType": "block",
-              "conditions": [
-                {
-                  "id": "compare-two-values",
-                  "objectClass": "System",
-                  "sid": 250000000386,
-                  "parameters": {
-                    "first-value": "Blocker",
-                    "comparison": 0,
-                    "second-value": "0"
-                  }
-                }
-              ],
-              "actions": [
-                {
-                  "id": "set-eventvar-value",
-                  "objectClass": "System",
-                  "sid": 250000000387,
-                  "parameters": {
-                    "variable": "HintID",
-                    "value": "Vehicle.vid"
-                  }
-                },
-                {
-                  "id": "set-instvar-value",
-                  "objectClass": "Vehicle",
-                  "sid": 250000000388,
-                  "parameters": {
-                    "instance-variable": "flash",
-                    "value": "time+2"
-                  }
-                },
-                {
-                  "id": "set-text",
-                  "objectClass": "Message",
-                  "sid": 250000000389,
-                  "parameters": {
-                    "text": "\"An open route. Check your tray first.\""
-                  }
-                }
-              ],
-              "sid": 250000000390
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "functionName": "FlashBlocker",
-      "functionDescription": "",
-      "functionCategory": "Toy Traffic Trio",
+      "functionCategory": "Buster Block Shooter",
       "functionReturnType": "none",
       "functionCopyPicked": false,
       "functionIsAsync": false,
@@ -2603,101 +2261,255 @@
       "eventType": "function-block",
       "conditions": [],
       "actions": [],
-      "sid": 250000000396,
+      "sid": 250000000353,
       "children": [
         {
           "eventType": "block",
           "conditions": [
             {
-              "id": "compare-instance-variable",
-              "objectClass": "Vehicle",
-              "sid": 250000000393,
+              "id": "for-each",
+              "objectClass": "System",
+              "sid": 250000000345,
               "parameters": {
-                "instance-variable": "vid",
-                "comparison": 0,
-                "value": "Blocker-1"
+                "object": "Block"
+              }
+            }
+          ],
+          "actions": [
+            {
+              "id": "set-at-xyz",
+              "objectClass": "History",
+              "sid": 250000000346,
+              "parameters": {
+                "x": "Block.bid",
+                "y": "0",
+                "z": "UndoCount",
+                "value": "Block.hp"
+              }
+            }
+          ],
+          "sid": 250000000347
+        },
+        {
+          "eventType": "block",
+          "conditions": [
+            {
+              "id": "for-each",
+              "objectClass": "System",
+              "sid": 250000000348,
+              "parameters": {
+                "object": "Tank"
+              }
+            }
+          ],
+          "actions": [
+            {
+              "id": "set-at-xyz",
+              "objectClass": "History",
+              "sid": 250000000349,
+              "parameters": {
+                "x": "Tank.tid",
+                "y": "1",
+                "z": "UndoCount",
+                "value": "Tank.ammo"
+              }
+            },
+            {
+              "id": "set-at-xyz",
+              "objectClass": "History",
+              "sid": 250000000350,
+              "parameters": {
+                "x": "Tank.tid",
+                "y": "2",
+                "z": "UndoCount",
+                "value": "Tank.phase"
+              }
+            },
+            {
+              "id": "set-at-xyz",
+              "objectClass": "History",
+              "sid": 250000000351,
+              "parameters": {
+                "x": "Tank.tid",
+                "y": "3",
+                "z": "UndoCount",
+                "value": "Tank.bay"
+              }
+            }
+          ],
+          "sid": 250000000352
+        }
+      ]
+    },
+    {
+      "functionName": "UndoMove",
+      "functionDescription": "",
+      "functionCategory": "Buster Block Shooter",
+      "functionReturnType": "none",
+      "functionCopyPicked": false,
+      "functionIsAsync": false,
+      "functionParameters": [],
+      "eventType": "function-block",
+      "conditions": [],
+      "actions": [
+        {
+          "id": "set-eventvar-value",
+          "objectClass": "System",
+          "sid": 250000000354,
+          "parameters": {
+            "variable": "UndoCount",
+            "value": "UndoCount-1"
+          }
+        },
+        {
+          "id": "clear",
+          "objectClass": "Board",
+          "sid": 250000000355
+        },
+        {
+          "id": "destroy",
+          "objectClass": "Shot",
+          "sid": 250000000356
+        },
+        {
+          "id": "set-eventvar-value",
+          "objectClass": "System",
+          "sid": 250000000357,
+          "parameters": {
+            "variable": "State",
+            "value": "\"Playing\""
+          }
+        },
+        {
+          "id": "set-eventvar-value",
+          "objectClass": "System",
+          "sid": 250000000358,
+          "parameters": {
+            "variable": "Clock",
+            "value": "0"
+          }
+        }
+      ],
+      "sid": 250000000372,
+      "children": [
+        {
+          "eventType": "block",
+          "conditions": [
+            {
+              "id": "for-each",
+              "objectClass": "System",
+              "sid": 250000000359,
+              "parameters": {
+                "object": "Block"
               }
             }
           ],
           "actions": [
             {
               "id": "set-instvar-value",
-              "objectClass": "Vehicle",
-              "sid": 250000000394,
+              "objectClass": "Block",
+              "sid": 250000000360,
               "parameters": {
-                "instance-variable": "flash",
-                "value": "time+.5"
+                "instance-variable": "hp",
+                "value": "History.At(Block.bid,0,UndoCount)"
+              }
+            },
+            {
+              "id": "set-opacity",
+              "objectClass": "Block",
+              "sid": 250000000361,
+              "parameters": {
+                "opacity": "Block.hp>0 ? 100 : 0"
               }
             }
           ],
-          "sid": 250000000395
-        }
-      ]
-    },
-    {
-      "functionName": "PlaySound",
-      "functionDescription": "",
-      "functionCategory": "Toy Traffic Trio",
-      "functionReturnType": "none",
-      "functionCopyPicked": false,
-      "functionIsAsync": false,
-      "functionParameters": [
-        {
-          "name": "soundID",
-          "type": "number",
-          "initialValue": "0",
-          "comment": "",
-          "sid": 250000000401
-        }
-      ],
-      "eventType": "function-block",
-      "conditions": [],
-      "actions": [],
-      "sid": 250000000402,
-      "children": [
+          "sid": 250000000366,
+          "children": [
+            {
+              "eventType": "block",
+              "conditions": [
+                {
+                  "id": "compare-instance-variable",
+                  "objectClass": "Block",
+                  "sid": 250000000362,
+                  "parameters": {
+                    "instance-variable": "hp",
+                    "comparison": 4,
+                    "value": "0"
+                  }
+                },
+                {
+                  "id": "for",
+                  "objectClass": "System",
+                  "sid": 250000000363,
+                  "parameters": {
+                    "name": "\"restore\"",
+                    "start-index": "0",
+                    "end-index": "Block.span-1"
+                  }
+                }
+              ],
+              "actions": [
+                {
+                  "id": "set-at-xy",
+                  "objectClass": "Board",
+                  "sid": 250000000364,
+                  "parameters": {
+                    "x": "Block.gx+loopindex(\"restore\")",
+                    "y": "Block.gy",
+                    "value": "Block.bid+1"
+                  }
+                }
+              ],
+              "sid": 250000000365
+            }
+          ]
+        },
         {
           "eventType": "block",
           "conditions": [
             {
-              "id": "compare-two-values",
+              "id": "for-each",
               "objectClass": "System",
-              "sid": 250000000397,
+              "sid": 250000000367,
               "parameters": {
-                "first-value": "Muted",
-                "comparison": 0,
-                "second-value": "0"
-              }
-            },
-            {
-              "id": "compare-two-values",
-              "objectClass": "System",
-              "sid": 250000000398,
-              "parameters": {
-                "first-value": "State",
-                "comparison": 1,
-                "second-value": "\"Loading\""
+                "object": "Tank"
               }
             }
           ],
           "actions": [
             {
-              "id": "play-by-name",
-              "objectClass": "Audio",
-              "sid": 250000000399,
+              "id": "set-instvar-value",
+              "objectClass": "Tank",
+              "sid": 250000000368,
               "parameters": {
-                "folder": "sounds",
-                "audio-file-name": "tokenat(\"release,blocked,match,win,tap\",soundID,\",\")",
-                "loop": "not-looping",
-                "volume": "-12",
-                "stereo-pan": "0",
-                "tag-optional": "\"sfx\""
+                "instance-variable": "ammo",
+                "value": "History.At(Tank.tid,1,UndoCount)"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Tank",
+              "sid": 250000000369,
+              "parameters": {
+                "instance-variable": "phase",
+                "value": "History.At(Tank.tid,2,UndoCount)"
+              }
+            },
+            {
+              "id": "set-instvar-value",
+              "objectClass": "Tank",
+              "sid": 250000000370,
+              "parameters": {
+                "instance-variable": "bay",
+                "value": "History.At(Tank.tid,3,UndoCount)"
               }
             }
           ],
-          "sid": 250000000400
+          "sid": 250000000371
         }
       ]
     }
   ],
-  "sid": 250000000403
+  "sid": 250000000373
 }

@@ -1,7 +1,7 @@
 {
   "name": "Backdrop",
   "plugin-id": "Sprite",
-  "sid": 250000000003,
+  "sid": 250000000002,
   "isGlobal": false,
   "editorNewInstanceIsReplica": true,
   "instanceVariables": [],
@@ -36,35 +36,9 @@
             },
             "duration": 1,
             "tag": ""
-          },
-          {
-            "width": 540,
-            "height": 960,
-            "originX": 0.5,
-            "originY": 0.5,
-            "originalSource": "",
-            "exportFormat": "lossless",
-            "exportQuality": 0.8,
-            "fileType": "image/png",
-            "imageSpriteId": 250000000002,
-            "useCollisionPoly": true,
-            "collisionPoly": {
-              "points": [
-                0,
-                0,
-                1,
-                0,
-                1,
-                1,
-                0,
-                1
-              ]
-            },
-            "duration": 1,
-            "tag": ""
           }
         ],
-        "sid": 250000000004,
+        "sid": 250000000003,
         "name": "Default",
         "isLooping": false,
         "isPingPong": false,

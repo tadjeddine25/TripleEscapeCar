@@ -1,80 +1,49 @@
-# Toy Traffic Trio
+# Buster Block Shooter
 
-A 40-level traffic escape × triple-matching puzzle. Release cars along their roof arrows; three of the same vehicle type clear the seven-slot garage. All four edges are exits. No timer, move limit, lives, ads, purchases, login, or external services.
+Tap the tanks. Shoot the blocks. Clear the board.
 
-## Downloads
+A complete replacement of the previous game: colour-matched tanks, numbered castle blocks, five firing bays, three tank queues, automatically aimed shots, ammo management, and 40 editable campaign levels. Original tank sprites, backgrounds and shooting sounds are included. No downloaded commercial game assets are used.
 
-- `dist/ToyTrafficTrio.c3p`: native, editable Construct folder project packaged as C3P; targets r506. **Structurally checked, but not opened or previewed in Construct.**
-- `dist/ToyTrafficTrio-HTML5.zip`: tested, independently implemented browser companion. **This is not an official Construct-generated export.**
-- `dist/ToyTrafficTrio-Source.zip`: complete source, Construct folder project, editable level data, original assets, build tools, tests, and QA evidence.
+## Play
 
-The browser implementation and Construct project share the same 40 levels and art. Construct renders native Sprite and Text objects; the project contains no HTML overlay, iframe, external canvas renderer, third-party plugins, or paid addons. Gameplay runs in native event sheets and functions. Its only startup JavaScript loads campaign data.
+Extract `dist/BusterBlockShooter-HTML5.zip` and run `python -m http.server 8080` from that directory. Open the served page in a modern browser. JavaScript modules require HTTP rather than opening the file directly. No dependency installation is needed to play.
 
-## Play the browser build
+Tap the **front tank in any of three queues** to deploy it into a free firing bay. Tanks automatically aim at matching-colour blocks that have at least one clear vertical path from below. Each hit costs one ammo and removes one block HP. Blocks remain fixed until their number reaches zero; then their occupied cells become available for shots at blocks above. Spent tanks leave their bay. Up to five tanks can shoot simultaneously, one hit per tank every 160 ms. The player chooses deployment order, not individual shot targets.
 
-Extract the HTML5 ZIP. In the extracted directory run `python -m http.server 8080`, then open the served `index.html` in a browser. Serve over HTTP; JavaScript modules do not reliably load from `file://`. No dependency installation is needed to play. Portrait 9:16 display scales to fit desktop and mobile screens.
+Clear all blocks to win. If all five bays contain stranded tanks with no matching exposed target, the board jams. Undo returns to the exact state immediately before the most recent deployment, including damage, tank ammo and queue order. Restart is always available. There is no timer, limited lives, login, or purchase flow.
 
-Tap or click a vehicle to release it. A blocked tap highlights its first obstruction and never changes the logical board or consumes a move. One move resolves at a time. A seventh arrival that creates a triple clears before loss is checked. Win requires an empty board, no transit, and an empty tray.
+The browser game supports sound/mute, undo, hint, restart, pause/resume, a 40-level picker and local progress storage. Hint identifies a front tank that can shoot now; it does not certify a full winning continuation. The queue shows its first three rows and advances as tanks deploy. Controls: mouse or touch; keyboard 1/2/3 deploys from each column, U undo, H hint, R restart, Escape pause. Tab exposes control buttons.
 
-- **Undo**: reverse accepted moves, including a loss or win. Unlimited and free.
-- **Hint**: browser solver highlights a move with a complete winning continuation, or recommends Undo if none exists. Native Construct Hint highlights a legal exit and asks the player to check the tray; it does not promise that exit wins.
-- **Restart**: replay the current level.
-- **Pause**: pause between moves.
-- **Sound**: toggle the original synthesized effects; browsers may require a gesture before audio.
-- **40 levels**: browser campaign picker; all puzzles available. Construct uses arrows beside the level counter.
-- Browser keyboard: arrow keys select vehicles, Enter/Space release, U undo, H hint, R restart, Escape pause. Tab exposes accessible control buttons. Native project uses mouse/touch controls.
+## Construct project
 
-New browser players enter level 1 immediately. Local browser storage remembers completed levels and the next puzzle; it is optional and failures are handled. Construct currently starts at level 1 on each new preview and has no persistent campaign save.
+`dist/BusterBlockShooter.c3p` is the generated native project targeting Construct 3 r506; `construct/project.c3proj` is its editable folder form. Open with Construct's Open → File and run Preview. All gameplay/rendering uses native Sprite, Text, Touch, JSON and Array objects with native event sheets/functions. Startup JavaScript loads campaign data only. There is no HTML overlay or external canvas inside the C3P. A plan that supports scripting and the project's event count may be required; no third-party or paid addons are used.
 
-## Open in Construct 3
+Native implementation includes tank queues, five bays, colour/exposure checks, ammo/HP, bullets, win/jam detection, restart, undo and pause. The browser has richer effects, original audio, progress persistence, the level picker and the actionable hint; native preview currently has no audio or persistent progress and its hint provides a rule reminder. This is a separate native implementation, not a wrapper around the browser canvas.
 
-Open `ToyTrafficTrio.c3p` using Construct's **Open → File**, ideally in r506 or a later compatible release. Alternatively open `construct/project.c3proj` as a folder project. Run Preview and inspect errors before publishing. The full project includes JavaScript data-loading scripts and may require a Construct plan that supports scripting and the project's event count; it does not require paid addons.
+**Construct editor opening, ACE compatibility and runtime behavior have not been tested.** The editor host was inaccessible in this environment. Structural reference/ZIP checks do not prove that the C3P opens or plays correctly. Test native Preview before relying on the project. The browser ZIP is an independently tested companion, **not an official Construct HTML5 export**. To obtain an official export, open/verify the native project and use Construct's Web/HTML5 export workflow, then test the generated output through HTTP.
 
-**Environment limitation:** `editor.construct.net` returned HTTP 403 here. We could not confirm that the editor accepts this generated project, validate its ACE schemas with the editor, preview the native events, or create an official HTML5 export. JSON/reference/archive checks are not proof of engine compatibility. Do not treat this C3P as engine-certified or production-ready until those checks pass.
+## Levels and editing
 
-Native structure:
+`assets/levels.json` is canonical. Every level contains `cols`, `rows`, `blocks`, `tanks` and a legal `solution` deployment order. Blocks use `{id,x,y,w,hp,maxHP,color}`: six logical columns, row zero at the top, width in cells, one row tall. Tanks use `{id,col,order,color,ammo}`: three queue columns with increasing depth. Colour IDs: 0 blue, 1 gold, 2 green, 3 pink, 4 purple, 5 pearl. Unique IDs and nonoverlapping blocks are required. Total ammo equals block HP for each colour in all shipped levels.
 
-- `construct/layouts/Game.json`: Game, UI, and Overlay render layers, 540×960 viewport.
-- `construct/eventSheets/Game.json`: all gameplay events, including `LoadLevel`, `CanExit`, `MatchKind`, `SortTray`, `Outcome`, `UndoMove`, and `Rebuild`.
-- `Board` Array: authoritative occupied cells, 0 empty or vehicle ID + 1 occupied.
-- `Vehicle` instance variables: integer grid anchors, direction, match type, phase, arrival order, tray slot, and animation data. Positions never determine puzzle legality.
-- Phases: 0 board, 1 transit, 2 tray, 3 matched/hidden. Retained arrival history enables native Undo by rebuilding the grid and replaying matches.
-- States: Loading, Playing, ResolvingMove, Paused, Won, Lost. There is no ad subsystem.
-- `construct/scripts/campaign.js`: editable native campaign data.
-- `construct/scripts/main.js`: campaign-data initialization only.
+Edit the JSON and its winning `solution`, then run `npm run build` to synchronize both campaign modules, validate, generate the C3P and package the downloads. `tools/levels.mjs` is the deterministic initial generator; running it **overwrites authored levels**. Native campaign edits inside `construct/scripts/campaign.js` work in Construct but are overwritten by the next source build.
 
-## Edit levels
+The native `Board` Array stores occupied cells by block ID. `History` stores HP, ammo, phase and bay snapshots for Undo; animations never decide puzzle truth. Event functions include LoadLevel, QueueRank, FreeBay, FindTarget, Shoot, Volley, Snapshot and UndoMove.
 
-The canonical source is `assets/levels.json`, a normal JSON array. Each level has `id`, `name`, `cols`, `rows`, `vehicles`, and a `solution` witness.
+## Development
 
-Each vehicle is `{ "id": 0, "type": 0, "x": 0, "y": 0, "d": 0 }`. IDs are unique within a level. Coordinates are zero-based; `(x,y)` is always the **topmost/leftmost occupied cell**, regardless of facing. Directions: 0 up, 1 right, 2 down, 3 left. Vertical vehicles occupy `(x,y)` and `(x,y+1)`; horizontal vehicles occupy `(x,y)` and `(x+1,y)`. Match type IDs: 0 red compact, 1 blue van, 2 yellow taxi, 3 green minibus, 4 purple delivery truck, 5 orange buggy.
-
-Use six columns and six or seven rows. Do not overlap vehicles. Every type count must be divisible by three. `solution` lists vehicle IDs in a complete legal, tray-safe winning order. Diagnostic fields such as `initialBlocked`, `solutionPeakTray`, and `relief` describe generation but do not control gameplay. Update diagnostics when authoring levels; validation independently checks the actual grid and witness.
-
-After editing data, run `npm run build` to sync the browser module and native campaign, validate witnesses, and package both projects. Then run `npm test`, `npm run validate`, and browser QA. Check native Preview separately. Editing `construct/scripts/campaign.js` directly works inside Construct but is overwritten by the next source build. The included `construct/files/levels.json` is a reference copy; the native runtime reads its script module.
-
-`tools/levels.py` is the deterministic initial campaign generator. It **overwrites authored levels**; do not run it to sync edits.
-
-## Development and checks
-
-Playing requires only a modern browser and a static HTTP server. Building the C3P/source packages requires Python 3.12+, Pillow, ffmpeg with libopus, and Node.js 22+; no npm packages are required by gameplay. `requirements-dev.txt` and `package-lock.json` record development dependencies. Browser QA uses Playwright with system Chromium (`CHROMIUM_PATH` can override the executable).
+Use Node.js 22+ and Python 3.12+. Building requires Pillow (`requirements-dev.txt`). Browser QA requires Playwright and a system Chromium executable (`CHROMIUM_PATH` overrides its path).
 
 ```sh
-npm ci --cache /tmp/toy-traffic-npm-cache
+npm ci --cache /tmp/buster-npm-cache
 python -m pip install -r requirements-dev.txt
 npm test
-npm run validate
 npm run build
+npm run serve
+# In another terminal:
+npm run test:browser
 ```
 
-For UI QA, keep `npm run serve` running in one terminal, then run `npm run test:browser` in another. `GAME_URL` can change the test server address. Tests simulate pointer input and advance the animation clock; they are not a human pacing study.
+`GAME_URL` overrides the browser QA server URL. Art can be regenerated with `python tools/art.py`; it uses the DejaVu Sans system font path documented in that script. No remote fonts, trackers, ad libraries or network services are required at runtime. Poki ads/SDK have not been integrated; hosting on Poki still requires its onboarding and lifecycle/ad integration.
 
-To regenerate the original art, run `python tools/art.py` (Pillow and the documented DejaVu system font path). All art and PCM audio are original generated assets. Vehicle silhouettes, details, colors and arrows distinguish the six types. The WAV originals and converted WebM/Opus files are included. No remote fonts or CDNs are used at runtime.
-
-## Official Construct export
-
-Once native Preview is verified, choose Construct's **Project → Export → Web/HTML5**, select the desired output options, export, and test the generated files through an HTTP server. Recheck touch input, audio unlock, resizing, undo after matching, both win/loss paths, and saved progress expectations. That official export step was not performed in this environment.
-
-## Known limits
-
-The pasted brief ended at “Keep all gameplay”, and no referenced visual image was attached. The supplied complete rules guided implementation; visuals are original. All levels are solvable and have machine-checked paths, but relative difficulty and long-term appeal need human playtesting. The native project is unverified in Construct, has a simpler legal-route cue, and has no persistent progress save. The tested browser game is a companion implementation, not a runtime validation of the C3P. Browser audio output was not audited by listening, and Safari/iOS/Android hardware testing remains outstanding. See `QA.md` for exact results.
+The supplied reference guided the castle setting, palette, block numerals and tank staging; artwork is newly generated. The prototype campaign has machine-checked solutions, not human difficulty calibration. See QA.md for executed checks and outstanding native/hardware testing.

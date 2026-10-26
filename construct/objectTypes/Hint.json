@@ -1,7 +1,7 @@
 {
   "name": "Hint",
   "plugin-id": "Sprite",
-  "sid": 250000000042,
+  "sid": 250000000050,
   "isGlobal": false,
   "editorNewInstanceIsReplica": true,
   "instanceVariables": [],
@@ -12,15 +12,15 @@
       {
         "frames": [
           {
-            "width": 134,
-            "height": 54,
+            "width": 112,
+            "height": 50,
             "originX": 0.5,
             "originY": 0.5,
             "originalSource": "",
             "exportFormat": "lossless",
             "exportQuality": 0.8,
             "fileType": "image/png",
-            "imageSpriteId": 250000000041,
+            "imageSpriteId": 250000000049,
             "useCollisionPoly": true,
             "collisionPoly": {
               "points": [
@@ -38,7 +38,7 @@
             "tag": ""
           }
         ],
-        "sid": 250000000043,
+        "sid": 250000000051,
         "name": "Default",
         "isLooping": false,
         "isPingPong": false,

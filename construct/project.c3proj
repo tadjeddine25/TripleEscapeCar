@@ -1,7 +1,7 @@
 {
   "projectFormatVersion": 1,
   "savedWithRelease": 50600,
-  "name": "Toy Traffic Trio",
+  "name": "Buster Block Shooter",
   "runtime": "c3",
   "useWorker": "auto",
   "bundleAddons": false,
@@ -29,8 +29,8 @@
     },
     {
       "type": "plugin",
-      "id": "Audio",
-      "name": "Audio",
+      "id": "Json",
+      "name": "JSON",
       "author": "Scirra",
       "bundled": false
     },
@@ -40,43 +40,31 @@
       "name": "Array",
       "author": "Scirra",
       "bundled": false
-    },
-    {
-      "type": "plugin",
-      "id": "Json",
-      "name": "JSON",
-      "author": "Scirra",
-      "bundled": false
     }
   ],
-  "uniqueId": "toytraffictrio250631",
+  "uniqueId": "busterblockshooter61723",
   "objectTypes": {
     "items": [
       "Backdrop",
-      "Vehicle",
-      "Hand",
-      "Modal",
+      "Block",
+      "Tank",
+      "Shot",
       "Undo",
       "Hint",
       "Restart",
       "Pause",
-      "Sound",
-      "Previous",
-      "Forward",
       "Next",
       "Retry",
       "Resume",
+      "Title",
       "LevelLabel",
-      "LevelName",
       "Message",
-      "TrayLabel",
+      "Numbers",
       "ModalTitle",
-      "ModalCaption",
-      "FooterLabel",
       "Campaign",
       "Board",
-      "Touch",
-      "Audio"
+      "History",
+      "Touch"
     ],
     "subfolders": []
   },
@@ -105,7 +93,7 @@
         {
           "name": "main.js",
           "type": "application/javascript",
-          "sid": 250000000409,
+          "sid": 250000000377,
           "script-info": {
             "purpose": "main"
           }
@@ -113,7 +101,7 @@
         {
           "name": "campaign.js",
           "type": "application/javascript",
-          "sid": 250000000410,
+          "sid": 250000000378,
           "script-info": {
             "purpose": "none"
           }
@@ -122,48 +110,7 @@
       "subfolders": []
     },
     "sound": {
-      "items": [
-        {
-          "name": "release.webm",
-          "type": "audio/webm; codecs=opus",
-          "sid": 250000000412,
-          "file-info": {
-            "purpose": "none"
-          }
-        },
-        {
-          "name": "blocked.webm",
-          "type": "audio/webm; codecs=opus",
-          "sid": 250000000413,
-          "file-info": {
-            "purpose": "none"
-          }
-        },
-        {
-          "name": "match.webm",
-          "type": "audio/webm; codecs=opus",
-          "sid": 250000000414,
-          "file-info": {
-            "purpose": "none"
-          }
-        },
-        {
-          "name": "win.webm",
-          "type": "audio/webm; codecs=opus",
-          "sid": 250000000415,
-          "file-info": {
-            "purpose": "none"
-          }
-        },
-        {
-          "name": "tap.webm",
-          "type": "audio/webm; codecs=opus",
-          "sid": 250000000416,
-          "file-info": {
-            "purpose": "none"
-          }
-        }
-      ],
+      "items": [],
       "subfolders": []
     },
     "music": {
@@ -179,69 +126,11 @@
       "subfolders": []
     },
     "icon": {
-      "items": [
-        {
-          "name": "icon-16.png",
-          "type": "image/png",
-          "sid": 250000000417,
-          "icon-info": {
-            "purpose": "app-icon"
-          }
-        },
-        {
-          "name": "icon-32.png",
-          "type": "image/png",
-          "sid": 250000000418,
-          "icon-info": {
-            "purpose": "app-icon"
-          }
-        },
-        {
-          "name": "icon-64.png",
-          "type": "image/png",
-          "sid": 250000000419,
-          "icon-info": {
-            "purpose": "app-icon"
-          }
-        },
-        {
-          "name": "icon-128.png",
-          "type": "image/png",
-          "sid": 250000000420,
-          "icon-info": {
-            "purpose": "app-icon"
-          }
-        },
-        {
-          "name": "icon-256.png",
-          "type": "image/png",
-          "sid": 250000000421,
-          "icon-info": {
-            "purpose": "app-icon"
-          }
-        },
-        {
-          "name": "icon-512.png",
-          "type": "image/png",
-          "sid": 250000000422,
-          "icon-info": {
-            "purpose": "app-icon"
-          }
-        }
-      ],
+      "items": [],
       "subfolders": []
     },
     "general": {
-      "items": [
-        {
-          "name": "levels.json",
-          "type": "application/json",
-          "sid": 250000000411,
-          "file-info": {
-            "purpose": "none"
-          }
-        }
-      ],
+      "items": [],
       "subfolders": []
     }
   },
@@ -254,13 +143,13 @@
     "subfolders": []
   },
   "properties": {
-    "description": "A forty-level traffic escape and triple-matching toy puzzle.",
+    "description": "Colour-matched tanks blast numbered castle blocks.",
     "version": "1.0.0",
     "autoIncrementVersion": false,
-    "author": "Toy Traffic Trio",
+    "author": "Buster Block Shooter",
     "authorEmail": "",
     "authorWebsite": "",
-    "appId": "com.toytraffic.trio",
+    "appId": "com.buster.blockshooter",
     "pixelRounding": false,
     "zAxisScale": "regular",
     "fov": 0.7853981633974483,
@@ -288,7 +177,7 @@
       0
     ],
     "orientations": "portrait",
-    "webgpu": "auto",
+    "webgpu": "off",
     "multitexturing": "auto",
     "gpuPreference": "default",
     "framerateMode": "vsync",

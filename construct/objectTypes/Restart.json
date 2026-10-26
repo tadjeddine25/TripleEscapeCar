@@ -1,7 +1,7 @@
 {
   "name": "Restart",
   "plugin-id": "Sprite",
-  "sid": 250000000046,
+  "sid": 250000000054,
   "isGlobal": false,
   "editorNewInstanceIsReplica": true,
   "instanceVariables": [],
@@ -12,15 +12,15 @@
       {
         "frames": [
           {
-            "width": 46,
-            "height": 54,
+            "width": 48,
+            "height": 50,
             "originX": 0.5,
             "originY": 0.5,
             "originalSource": "",
             "exportFormat": "lossless",
             "exportQuality": 0.8,
             "fileType": "image/png",
-            "imageSpriteId": 250000000045,
+            "imageSpriteId": 250000000053,
             "useCollisionPoly": true,
             "collisionPoly": {
               "points": [
@@ -38,7 +38,7 @@
             "tag": ""
           }
         ],
-        "sid": 250000000047,
+        "sid": 250000000055,
         "name": "Default",
         "isLooping": false,
         "isPingPong": false,

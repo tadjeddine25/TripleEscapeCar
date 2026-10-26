@@ -1,7 +1,7 @@
 {
   "name": "Resume",
   "plugin-id": "Sprite",
-  "sid": 250000000074,
+  "sid": 250000000070,
   "isGlobal": false,
   "editorNewInstanceIsReplica": true,
   "instanceVariables": [],
@@ -13,14 +13,14 @@
         "frames": [
           {
             "width": 242,
-            "height": 54,
+            "height": 50,
             "originX": 0.5,
             "originY": 0.5,
             "originalSource": "",
             "exportFormat": "lossless",
             "exportQuality": 0.8,
             "fileType": "image/png",
-            "imageSpriteId": 250000000073,
+            "imageSpriteId": 250000000069,
             "useCollisionPoly": true,
             "collisionPoly": {
               "points": [
@@ -38,7 +38,7 @@
             "tag": ""
           }
         ],
-        "sid": 250000000075,
+        "sid": 250000000071,
         "name": "Default",
         "isLooping": false,
         "isPingPong": false,

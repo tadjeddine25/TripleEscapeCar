@@ -1,11 +1,11 @@
 {
-  "name": "toy-traffic-trio",
+  "name": "buster-block-shooter",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "test": "node --test tests/core.test.js",
-    "validate": "node tools/validate.js",
+    "validate": "node tools/validate.mjs",
     "serve": "python -m http.server 8080",
     "build": "python tools/package.py",
     "test:browser": "node tools/browser-qa.mjs"
