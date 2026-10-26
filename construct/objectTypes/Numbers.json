@@ -1,7 +1,7 @@
 {
   "name": "Numbers",
   "plugin-id": "Text",
-  "sid": 250000000079,
+  "sid": 250000000058,
   "isGlobal": false,
   "instanceVariables": [
     {
@@ -9,14 +9,14 @@
       "type": "number",
       "desc": "",
       "show": true,
-      "sid": 250000000080
+      "sid": 250000000059
     },
     {
       "name": "role",
       "type": "number",
       "desc": "",
       "show": true,
-      "sid": 250000000081
+      "sid": 250000000060
     }
   ],
   "behaviorTypes": [],

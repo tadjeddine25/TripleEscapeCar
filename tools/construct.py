@@ -5,7 +5,7 @@ import json,pathlib,shutil,itertools,subprocess,zipfile
 from PIL import Image
 R=pathlib.Path(__file__).resolve().parents[1];P=R/'construct';A=R/'assets'
 for f in ['objectTypes','layouts','eventSheets','images','scripts','sounds','files','icons']:(P/f).mkdir(parents=True,exist_ok=True)
-sids=itertools.count(250000000001);uids=itertools.count(1)
+sids=itertools.count(250000000001);uids=itertools.count(1);imageids=itertools.count(1000001)
 def sid():return next(sids)
 def write(path,data):path.write_text(json.dumps(data,indent=2))
 def folder(items=None):return dict(items=[] if items is None else items,subfolders=[])
@@ -15,7 +15,7 @@ def sprite(name,files,variables=[]):
  frames=[]
  for i,f in enumerate(files):
   w,h=Image.open(A/f).size;shutil.copyfile(A/f,P/'images'/f'{name.lower()}-default-{i:03}.png')
-  frames.append(dict(width=w,height=h,originX=.5,originY=.5,originalSource='',exportFormat='lossless',exportQuality=.8,fileType='image/png',imageSpriteId=sid(),useCollisionPoly=True,collisionPoly={'points':[0,0,1,0,1,1,0,1]},duration=1,tag=''))
+  frames.append(dict(width=w,height=h,originX=.5,originY=.5,originalSource='',exportFormat='lossless',exportQuality=.8,fileType='image/png',imageSpriteId=next(imageids),useCollisionPoly=True,collisionPoly={'points':[0,0,1,0,1,1,0,1]},duration=1,tag=''))
  write(P/'objectTypes'/f'{name}.json',dict(name=name,**{'plugin-id':'Sprite'},sid=sid(),isGlobal=False,editorNewInstanceIsReplica=True,instanceVariables=[var(v) for v in variables],behaviorTypes=[],effectTypes=[],animations=folder([dict(frames=frames,sid=sid(),name='Default',isLooping=False,isPingPong=False,repeatCount=1,repeatTo=0,speed=0)])))
  objects.append(name)
 def inst(name,x,y,w,h,iv={},props=None,origin=.5):

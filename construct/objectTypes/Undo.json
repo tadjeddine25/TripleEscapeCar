@@ -1,7 +1,7 @@
 {
   "name": "Undo",
   "plugin-id": "Sprite",
-  "sid": 250000000046,
+  "sid": 250000000031,
   "isGlobal": false,
   "editorNewInstanceIsReplica": true,
   "instanceVariables": [],
@@ -20,7 +20,7 @@
             "exportFormat": "lossless",
             "exportQuality": 0.8,
             "fileType": "image/png",
-            "imageSpriteId": 250000000045,
+            "imageSpriteId": 1000015,
             "useCollisionPoly": true,
             "collisionPoly": {
               "points": [
@@ -38,7 +38,7 @@
             "tag": ""
           }
         ],
-        "sid": 250000000047,
+        "sid": 250000000032,
         "name": "Default",
         "isLooping": false,
         "isPingPong": false,

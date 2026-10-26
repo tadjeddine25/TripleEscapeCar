@@ -1,7 +1,7 @@
 {
   "name": "Shot",
   "plugin-id": "Sprite",
-  "sid": 250000000037,
+  "sid": 250000000023,
   "isGlobal": false,
   "editorNewInstanceIsReplica": true,
   "instanceVariables": [
@@ -10,35 +10,35 @@
       "type": "number",
       "desc": "",
       "show": true,
-      "sid": 250000000038
+      "sid": 250000000024
     },
     {
       "name": "sx",
       "type": "number",
       "desc": "",
       "show": true,
-      "sid": 250000000039
+      "sid": 250000000025
     },
     {
       "name": "sy",
       "type": "number",
       "desc": "",
       "show": true,
-      "sid": 250000000040
+      "sid": 250000000026
     },
     {
       "name": "tx",
       "type": "number",
       "desc": "",
       "show": true,
-      "sid": 250000000041
+      "sid": 250000000027
     },
     {
       "name": "ty",
       "type": "number",
       "desc": "",
       "show": true,
-      "sid": 250000000042
+      "sid": 250000000028
     }
   ],
   "behaviorTypes": [],
@@ -56,7 +56,7 @@
             "exportFormat": "lossless",
             "exportQuality": 0.8,
             "fileType": "image/png",
-            "imageSpriteId": 250000000036,
+            "imageSpriteId": 1000014,
             "useCollisionPoly": true,
             "collisionPoly": {
               "points": [
@@ -74,7 +74,7 @@
             "tag": ""
           }
         ],
-        "sid": 250000000043,
+        "sid": 250000000029,
         "name": "Default",
         "isLooping": false,
         "isPingPong": false,

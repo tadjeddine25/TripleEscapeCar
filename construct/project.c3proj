@@ -93,7 +93,7 @@
         {
           "name": "main.js",
           "type": "application/javascript",
-          "sid": 250000000377,
+          "sid": 250000000356,
           "script-info": {
             "purpose": "main"
           }
@@ -101,7 +101,7 @@
         {
           "name": "campaign.js",
           "type": "application/javascript",
-          "sid": 250000000378,
+          "sid": 250000000357,
           "script-info": {
             "purpose": "none"
           }

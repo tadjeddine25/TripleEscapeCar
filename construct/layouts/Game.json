@@ -15,12 +15,12 @@
             "enable-collisions": true
           },
           "uid": 1,
-          "sid": 250000000004,
+          "sid": 250000000003,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000004,
+            "sid": 250000000003,
             "expanded": true
           },
           "showing": true,
@@ -51,7 +51,7 @@
             "enable-collisions": true
           },
           "uid": 2,
-          "sid": 250000000019,
+          "sid": 250000000012,
           "tags": "",
           "instanceVariables": {
             "bid": 0,
@@ -63,7 +63,7 @@
           },
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000019,
+            "sid": 250000000012,
             "expanded": true
           },
           "showing": true,
@@ -94,7 +94,7 @@
             "enable-collisions": true
           },
           "uid": 3,
-          "sid": 250000000035,
+          "sid": 250000000022,
           "tags": "",
           "instanceVariables": {
             "tid": 0,
@@ -107,7 +107,7 @@
           },
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000035,
+            "sid": 250000000022,
             "expanded": true
           },
           "showing": true,
@@ -138,7 +138,7 @@
             "enable-collisions": true
           },
           "uid": 4,
-          "sid": 250000000044,
+          "sid": 250000000030,
           "tags": "",
           "instanceVariables": {
             "age": 0,
@@ -149,7 +149,7 @@
           },
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000044,
+            "sid": 250000000030,
             "expanded": true
           },
           "showing": true,
@@ -172,7 +172,7 @@
           }
         }
       ],
-      "sid": 250000000374,
+      "sid": 250000000353,
       "effectTypes": [],
       "isInitiallyVisible": true,
       "isInitiallyInteractive": true,
@@ -215,12 +215,12 @@
             "enable-collisions": true
           },
           "uid": 5,
-          "sid": 250000000048,
+          "sid": 250000000033,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000048,
+            "sid": 250000000033,
             "expanded": true
           },
           "showing": true,
@@ -251,12 +251,12 @@
             "enable-collisions": true
           },
           "uid": 6,
-          "sid": 250000000052,
+          "sid": 250000000036,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000052,
+            "sid": 250000000036,
             "expanded": true
           },
           "showing": true,
@@ -287,12 +287,12 @@
             "enable-collisions": true
           },
           "uid": 7,
-          "sid": 250000000056,
+          "sid": 250000000039,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000056,
+            "sid": 250000000039,
             "expanded": true
           },
           "showing": true,
@@ -323,12 +323,12 @@
             "enable-collisions": true
           },
           "uid": 8,
-          "sid": 250000000060,
+          "sid": 250000000042,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000060,
+            "sid": 250000000042,
             "expanded": true
           },
           "showing": true,
@@ -359,12 +359,12 @@
             "enable-collisions": true
           },
           "uid": 9,
-          "sid": 250000000064,
+          "sid": 250000000045,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000064,
+            "sid": 250000000045,
             "expanded": true
           },
           "showing": true,
@@ -395,12 +395,12 @@
             "enable-collisions": true
           },
           "uid": 10,
-          "sid": 250000000068,
+          "sid": 250000000048,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000068,
+            "sid": 250000000048,
             "expanded": true
           },
           "showing": true,
@@ -431,12 +431,12 @@
             "enable-collisions": true
           },
           "uid": 11,
-          "sid": 250000000072,
+          "sid": 250000000051,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000072,
+            "sid": 250000000051,
             "expanded": true
           },
           "showing": true,
@@ -483,12 +483,12 @@
             "read-aloud": false
           },
           "uid": 12,
-          "sid": 250000000074,
+          "sid": 250000000053,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000074,
+            "sid": 250000000053,
             "expanded": true
           },
           "showing": true,
@@ -535,12 +535,12 @@
             "read-aloud": false
           },
           "uid": 13,
-          "sid": 250000000076,
+          "sid": 250000000055,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000076,
+            "sid": 250000000055,
             "expanded": true
           },
           "showing": true,
@@ -587,12 +587,12 @@
             "read-aloud": false
           },
           "uid": 14,
-          "sid": 250000000078,
+          "sid": 250000000057,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000078,
+            "sid": 250000000057,
             "expanded": true
           },
           "showing": true,
@@ -639,7 +639,7 @@
             "read-aloud": false
           },
           "uid": 15,
-          "sid": 250000000082,
+          "sid": 250000000061,
           "tags": "",
           "instanceVariables": {
             "owner": 0,
@@ -647,7 +647,7 @@
           },
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000082,
+            "sid": 250000000061,
             "expanded": true
           },
           "showing": true,
@@ -694,12 +694,12 @@
             "read-aloud": false
           },
           "uid": 16,
-          "sid": 250000000084,
+          "sid": 250000000063,
           "tags": "",
           "instanceVariables": {},
           "behaviors": {},
           "instanceFolderItem": {
-            "sid": 250000000084,
+            "sid": 250000000063,
             "expanded": true
           },
           "showing": true,
@@ -722,7 +722,7 @@
           }
         }
       ],
-      "sid": 250000000375,
+      "sid": 250000000354,
       "effectTypes": [],
       "isInitiallyVisible": true,
       "isInitiallyInteractive": true,
@@ -756,13 +756,13 @@
     "items": [],
     "subfolders": []
   },
-  "sid": 250000000376,
+  "sid": 250000000355,
   "nonworld-instances": [
     {
       "type": "Campaign",
       "properties": {},
       "uid": 17,
-      "sid": 250000000086,
+      "sid": 250000000065,
       "tags": "",
       "instanceVariables": {}
     },
@@ -774,7 +774,7 @@
         "depth": 1
       },
       "uid": 18,
-      "sid": 250000000088,
+      "sid": 250000000067,
       "tags": "",
       "instanceVariables": {}
     },
@@ -786,7 +786,7 @@
         "depth": 128
       },
       "uid": 19,
-      "sid": 250000000090,
+      "sid": 250000000069,
       "tags": "",
       "instanceVariables": {}
     }

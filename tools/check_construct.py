@@ -10,7 +10,9 @@ def check(o):
 check(sheet)
 for name,o in objects.items():
  for a in o.get('animations',{}).get('items',[]):
-  for i,f in enumerate(a['frames']):assert (P/'images'/f'{name.lower()}-{a["name"].lower()}-{i:03}.png').exists()
+  for i,f in enumerate(a['frames']):
+   assert 0 < f['imageSpriteId'] <= 2**32-1, 'Image IDs must not reuse the much larger SID sequence'
+   assert (P/'images'/f'{name.lower()}-{a["name"].lower()}-{i:03}.png').exists()
 with zipfile.ZipFile(R/'dist/BusterBlockShooter.c3p') as z:
  assert z.testzip() is None
  assert not any('/' in n for n in z.namelist()), 'C3P entries must match native Construct backslash paths'

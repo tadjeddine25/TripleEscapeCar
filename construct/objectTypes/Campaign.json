@@ -1,7 +1,7 @@
 {
   "name": "Campaign",
   "plugin-id": "Json",
-  "sid": 250000000085,
+  "sid": 250000000064,
   "isGlobal": true,
   "instanceVariables": []
 }

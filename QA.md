@@ -26,3 +26,5 @@ The HTML5 ZIP is the tested standalone browser companion, not a Construct-genera
 ## C3P import repair
 
 The initially delivered archive failed to open in the user's Construct editor. A comparison with 15 Construct-generated C3P examples found a packaging difference: native archives use backslash-separated ZIP entry names. The generator now matches that convention, emits editor-state files and uses a conventional project identifier. Checks now resolve project references using native archive paths and reject forward-slash entries. This repairs the observed packaging mismatch; editor acceptance of the rebuilt file remains unverified.
+
+The archive-path revision was also reported to fail in Construct r506.3. Further comparison found sprite image identifiers had incorrectly reused the large event SID sequence; these now use separate small positive IDs, consistent with native examples. The actual loader exception is still needed to diagnose remaining import rejection. Neither revision is editor-verified.
