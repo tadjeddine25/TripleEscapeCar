@@ -1,0 +1,21 @@
+{
+  "openTabs": {
+    "active": {
+      "name": "Game",
+      "type": "layout"
+    },
+    "open": [
+      {
+        "name": "Game",
+        "type": "layout"
+      },
+      {
+        "name": "Game",
+        "type": "eventSheet"
+      }
+    ]
+  },
+  "previewEffects": true,
+  "previewBrowser": "default",
+  "pauseOnUnfocus": false
+}

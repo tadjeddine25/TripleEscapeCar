@@ -22,3 +22,7 @@ Evidence: `assets/validation.json`, `dist/browser-qa.json`, and screenshots in d
 - No Poki SDK, interstitial ads or platform certification is included.
 
 The HTML5 ZIP is the tested standalone browser companion, not a Construct-generated export. No claim of guaranteed session length, commercial performance or endless unique levels is made; the campaign contains 40 levels.
+
+## C3P import repair
+
+The initially delivered archive failed to open in the user's Construct editor. A comparison with 15 Construct-generated C3P examples found a packaging difference: native archives use backslash-separated ZIP entry names. The generator now matches that convention, emits editor-state files and uses a conventional project identifier. Checks now resolve project references using native archive paths and reject forward-slash entries. This repairs the observed packaging mismatch; editor acceptance of the rebuilt file remains unverified.

@@ -96,8 +96,11 @@ levels=json.loads((A/'levels.json').read_text());native=[{**l,'blockCount':len(l
 root={k:folder() for k in ['script','sound','music','video','font','icon','general']}
 for n,purpose in [('main.js','main'),('campaign.js','none')]:root['script']['items'].append(dict(name=n,type='application/javascript',sid=sid(),**{'script-info':{'purpose':purpose}}))
 props=json.loads((A/'construct-properties.json').read_text());props.update(description='Colour-matched tanks blast numbered castle blocks.',author='Buster Block Shooter',appId='com.buster.blockshooter',version='1.0.0')
-write(P/'project.c3proj',dict(projectFormatVersion=1,savedWithRelease=50600,name='Buster Block Shooter',runtime='c3',useWorker='auto',bundleAddons=False,usedAddons=[dict(type='plugin',id=i,name=n,author='Scirra',bundled=False) for i,n in [('Sprite','Sprite'),('Text','Text'),('Touch','Touch'),('Json','JSON'),('Arr','Array')]],uniqueId='busterblockshooter61723',objectTypes=folder(objects),functionsName='Functions',autosaveData=None,containers=[],families=folder(),layouts=folder(['Game']),eventSheets=folder(['Game']),rootFileFolders=root,timelines=folder(),flowcharts=folder(),properties=props,viewportWidth=540,viewportHeight=960,firstLayout='Game'))
+write(P/'project.c3proj',dict(projectFormatVersion=1,savedWithRelease=50600,name='Buster Block Shooter',runtime='c3',useWorker='auto',bundleAddons=False,usedAddons=[dict(type='plugin',id=i,name=n,author='Scirra',bundled=False) for i,n in [('Sprite','Sprite'),('Text','Text'),('Touch','Touch'),('Json','JSON'),('Arr','Array')]],uniqueId='bustr061723',objectTypes=folder(objects),functionsName='Functions',autosaveData=None,containers=[],families=folder(),layouts=folder(['Game']),eventSheets=folder(['Game']),rootFileFolders=root,timelines=folder(),flowcharts=folder(),properties=props,viewportWidth=540,viewportHeight=960,firstLayout='Game'))
+write(P/'project.uistate.json',{'openTabs':{'active':{'name':'Game','type':'layout'},'open':[{'name':'Game','type':'layout'},{'name':'Game','type':'eventSheet'}]},'previewEffects':True,'previewBrowser':'default','pauseOnUnfocus':False})
+write(P/'projectfiles.uistate.json',[])
+write(P/'objecttypes.uistate.json',[])
 with zipfile.ZipFile(R/'dist/BusterBlockShooter.c3p','w',zipfile.ZIP_DEFLATED) as z:
- for f in P.rglob('*'):
-  if f.is_file():z.write(f,f.relative_to(P))
+ for f in sorted(P.rglob('*'),key=lambda f:(f.name!='project.c3proj',str(f))):
+  if f.is_file():z.write(f,str(f.relative_to(P)).replace('/',chr(92)))
 print('Native Buster Block Shooter C3P generated (editor preview unverified).')

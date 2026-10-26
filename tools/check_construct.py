@@ -13,6 +13,11 @@ for name,o in objects.items():
   for i,f in enumerate(a['frames']):assert (P/'images'/f'{name.lower()}-{a["name"].lower()}-{i:03}.png').exists()
 with zipfile.ZipFile(R/'dist/BusterBlockShooter.c3p') as z:
  assert z.testzip() is None
+ assert not any('/' in n for n in z.namelist()), 'C3P entries must match native Construct backslash paths'
+ assert 'project.uistate.json' in z.namelist()
+ for name in project['objectTypes']['items']:assert 'objectTypes'+chr(92)+name+'.json' in z.namelist()
+ for name in project['layouts']['items']:assert 'layouts'+chr(92)+name+'.json' in z.namelist()
+ for name in project['eventSheets']['items']:assert 'eventSheets'+chr(92)+name+'.json' in z.namelist()
  for f in P.rglob('*'):
-  if f.is_file():assert z.read(str(f.relative_to(P)))==f.read_bytes()
+  if f.is_file():assert z.read(str(f.relative_to(P)).replace('/',chr(92)))==f.read_bytes()
 print('Construct JSON, object/function/image references and archive CRC passed. Editor/runtime UNVERIFIED.')
