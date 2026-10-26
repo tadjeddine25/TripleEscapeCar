@@ -1,5 +1,5 @@
 import pathlib,json,zipfile
-R=pathlib.Path(__file__).resolve().parents[1];P=R/'construct';project=json.loads((P/'project.c3proj').read_text());objects={p.stem:json.loads(p.read_text()) for p in (P/'objectTypes').glob('*.json')};sheet=json.loads((P/'eventSheets/Game.json').read_text());functions={e['functionName'] for e in sheet['events'] if 'functionName' in e};assert project['name']=='Buster Block Shooter';assert set(objects)==set(project['objectTypes']['items'])
+R=pathlib.Path(__file__).resolve().parents[1];P=R/'construct';project=json.loads((P/'project.c3proj').read_text());objects={p.stem:json.loads(p.read_text()) for p in (P/'objectTypes').glob('*.json')};sheet=json.loads((P/'eventSheets/Game.json').read_text());functions={e['functionName'] for e in sheet['events'] if 'functionName' in e};assert project['properties']['webgpu'] in ['auto','yes','no'], 'Invalid WebGPU enum';assert project['name']=='Buster Block Shooter';assert set(objects)==set(project['objectTypes']['items'])
 def check(o):
  if isinstance(o,dict):
   if 'callFunction' in o:assert o['callFunction'] in functions
@@ -23,3 +23,11 @@ with zipfile.ZipFile(R/'dist/BusterBlockShooter.c3p') as z:
  for f in P.rglob('*'):
   if f.is_file():assert z.read(str(f.relative_to(P)).replace('/',chr(92)))==f.read_bytes()
 print('Construct JSON, object/function/image references and archive CRC passed. Editor/runtime UNVERIFIED.')
+
+for name,o in objects.items():
+ if o.get("plugin-id")=="Sprite":
+  pass
+for layer in json.loads((P/"layouts/Game.json").read_text())["layers"]:
+ for inst in layer["instances"]:
+  if objects[inst["type"]]["plugin-id"]=="Sprite":assert "live-preview" in inst["properties"]
+  if objects[inst["type"]]["plugin-id"]=="Text":assert "icon-set" in inst["properties"]

@@ -12,7 +12,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 1,
           "sid": 250000000003,
@@ -48,7 +49,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 2,
           "sid": 250000000012,
@@ -91,7 +93,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 3,
           "sid": 250000000022,
@@ -135,7 +138,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 4,
           "sid": 250000000030,
@@ -212,7 +216,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 5,
           "sid": 250000000033,
@@ -248,7 +253,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 6,
           "sid": 250000000036,
@@ -284,7 +290,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 7,
           "sid": 250000000039,
@@ -320,7 +327,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 8,
           "sid": 250000000042,
@@ -356,7 +364,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 9,
           "sid": 250000000045,
@@ -392,7 +401,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 10,
           "sid": 250000000048,
@@ -428,7 +438,8 @@
             "initially-visible": true,
             "initial-animation": "Default",
             "initial-frame": 0,
-            "enable-collisions": true
+            "enable-collisions": true,
+            "live-preview": false
           },
           "uid": 11,
           "sid": 250000000051,
@@ -480,7 +491,8 @@
             "enable-bbcode": true,
             "line-height": 0,
             "text-direction": "ltr",
-            "read-aloud": false
+            "read-aloud": false,
+            "icon-set": -1
           },
           "uid": 12,
           "sid": 250000000053,
@@ -532,7 +544,8 @@
             "enable-bbcode": true,
             "line-height": 0,
             "text-direction": "ltr",
-            "read-aloud": false
+            "read-aloud": false,
+            "icon-set": -1
           },
           "uid": 13,
           "sid": 250000000055,
@@ -584,7 +597,8 @@
             "enable-bbcode": true,
             "line-height": 0,
             "text-direction": "ltr",
-            "read-aloud": false
+            "read-aloud": false,
+            "icon-set": -1
           },
           "uid": 14,
           "sid": 250000000057,
@@ -636,7 +650,8 @@
             "enable-bbcode": true,
             "line-height": 0,
             "text-direction": "ltr",
-            "read-aloud": false
+            "read-aloud": false,
+            "icon-set": -1
           },
           "uid": 15,
           "sid": 250000000061,
@@ -691,7 +706,8 @@
             "enable-bbcode": true,
             "line-height": 0,
             "text-direction": "ltr",
-            "read-aloud": false
+            "read-aloud": false,
+            "icon-set": -1
           },
           "uid": 16,
           "sid": 250000000063,

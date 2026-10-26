@@ -33,9 +33,9 @@
     0
   ],
   "orientations": "portrait",
-  "webgpu": "off",
+  "webgpu": "auto",
   "multitexturing": "auto",
-  "gpuPreference": "default",
+  "gpuPreference": "high-performance",
   "framerateMode": "vsync",
   "sampling": "trilinear",
   "downscaling": "medium",

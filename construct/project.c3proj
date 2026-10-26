@@ -126,7 +126,56 @@
       "subfolders": []
     },
     "icon": {
-      "items": [],
+      "items": [
+        {
+          "name": "icon-16.png",
+          "type": "image/png",
+          "sid": 250000000358,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        },
+        {
+          "name": "icon-32.png",
+          "type": "image/png",
+          "sid": 250000000359,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        },
+        {
+          "name": "icon-64.png",
+          "type": "image/png",
+          "sid": 250000000360,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        },
+        {
+          "name": "icon-128.png",
+          "type": "image/png",
+          "sid": 250000000361,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        },
+        {
+          "name": "icon-256.png",
+          "type": "image/png",
+          "sid": 250000000362,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        },
+        {
+          "name": "icon-512.png",
+          "type": "image/png",
+          "sid": 250000000363,
+          "icon-info": {
+            "purpose": "app-icon"
+          }
+        }
+      ],
       "subfolders": []
     },
     "general": {
@@ -177,9 +226,9 @@
       0
     ],
     "orientations": "portrait",
-    "webgpu": "off",
+    "webgpu": "auto",
     "multitexturing": "auto",
-    "gpuPreference": "default",
+    "gpuPreference": "high-performance",
     "framerateMode": "vsync",
     "sampling": "trilinear",
     "downscaling": "medium",

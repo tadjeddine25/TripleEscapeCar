@@ -3,5 +3,6 @@
   "plugin-id": "Json",
   "sid": 250000000064,
   "isGlobal": true,
+  "editorNewInstanceIsReplica": true,
   "instanceVariables": []
 }
